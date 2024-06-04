@@ -25,7 +25,7 @@ to courses at DTU.
    .. raw:: html
       :file: questionnaire.html
 
-.. card:: :fas:`book-open`  Documentation
+.. card:: :fas:`book-open`  Essentials for 1st year students 
    :class-card: sd-color-primary
 
    Here you can find important information about Python, the terminal, conda, pip, IDEs (like Visual Studio Code), environments, and more!
