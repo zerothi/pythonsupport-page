@@ -1,11 +1,10 @@
 .. _Documentation_index2:
 
-Python In Practice 
+Learn more
 ==================
 
 Below you will find essential information that will 
 help you navigate Python in the best way possible.
-
 
 
 .. toctree::
