@@ -46,7 +46,7 @@ Using ``conda list`` you can see all the packages that you have installed and th
          conda list
 
 
-Navigating packages
+Installing packages
 ^^^^^^^^^^^^^^^^^^^
 
 
