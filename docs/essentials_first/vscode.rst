@@ -106,7 +106,7 @@ Selecting the right interpreter
 
 
 
-Terminal in VScode 
+Terminal in VS Code 
 -------------------
 
 
@@ -166,6 +166,12 @@ Jupyter notebooks give you a way to combine python code, and usual readable text
                         :width: 450
                         :align: center
                         :alt: IDLE Shell
+                    
+                    .. warning::
+                        If the "Create: New Jupyter notebook" option does not pop up, you need to install the Jupyter extension for VS Code. This is easily done by
+                        pressing "CTRL" + "Shift" + "X", searching for "Jupyter" and pressing install
+                        when Jupyter pops up. If it is still not working, open a terminal, type "pip install jupyter", 
+                        press "Enter" and wait for jupyter to be installed. You may need to restart VS Code
 
                 .. tab-item:: Mac OS 
 
@@ -174,6 +180,12 @@ Jupyter notebooks give you a way to combine python code, and usual readable text
                     #. Press the "Select Kernel" button in the top right of the notebook
                     #. Click "Python Environments" and "3.11.5 ('base') (You may have a different version of Python on your own PC)"
 
+                    .. warning::
+                        If the "Create: New Jupyter notebook" option does not pop up, you need to install the Jupyter extension for VS Code. This is easily done by
+                        pressing "CMD" + "Shift" + "X", searching for "Jupyter" and pressing install
+                        when Jupyter pops up. If it is still not working, open a terminal, type "pip3 install jupyter", 
+                        press "Enter" and wait for jupyter to be installed. You may need to restart VS Code
+
                 .. tab-item:: Linux
 
                     #. Press "CTRL" + "Shift" + "p"
@@ -181,7 +193,12 @@ Jupyter notebooks give you a way to combine python code, and usual readable text
                     #. Press the "Select Kernel" button in the top right of the notebook
                     #. Click "Python Environments" and "3.11.5 ('base') (You may have a different version of Python on your own PC)"
 
-    
+                    .. warning::
+                        If the "Create: New Jupyter notebook" option does not pop up, you need to install the Jupyter extension for VS Code. This is easily done by
+                        pressing "CTRL" + "Shift" + "X", searching for "Jupyter" and pressing install
+                        when Jupyter pops up. If it is still not working, open a terminal, type "pip install jupyter", 
+                        press "Enter" and wait for jupyter to be installed. You may need to restart VS Code
+
 
 
 .. card:: Code blocks and Text Blocks
