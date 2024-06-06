@@ -1,33 +1,46 @@
-VScode
-======
+VS Code
+========
 
-VScode is the place to write your python code. Below you will find the most important tips to get started. 
+.. note::
+    If you are in your first year, you probably will not need to use VS Code until **week 7 or 8 of your studies**. Just remember, that this page is here to get you started with some basic tips whenever you need. 
+
+Similarly to the Idle, VS Code is a place to write your Python code. Unlike the idle, VS Code has a lot of features to help you code, 
+and it is very effective for larger projects. VS Code is very useful for things such as debugging, organizing files and collaborating with other people for coding.
+It also comes with many extensions that can improve visual clarity, help you collaborate with 
+others and a particularly useful type of file for your code called jupyter notebooks (These will be explained below). 
 
 
 
 
 
-Making a Python-file
--------------------
+Creating a Python-file
+-----------------------
 
 .. card::      
     
 
-    You can create a python file in VScode. This is useful if you are writing code, that you want to save for later or reuse. 
+    You can create a python file in VScode. This is useful if you are writing code that you will need again. 
 
             .. tab-set::
 
                 .. tab-item:: Windows 
 
-                    Press the "File" button in the top left corner of the screen. Select "New File". Select "Python File" from the menu that drops down. 
+                    Press the "File" button in the top left corner of VS Code. Select "New File". Select "Python File" from the menu that drops down. 
 
-                .. tab-item:: Mac
+                    .. image:: images/VScode_windows1.png
+                        :width: 450
+                        :align: center
+                        :alt: IDLE Shell
 
-                    Press the "File" button in the top left corner of the screen. Select "New File". Select "Python File" from the menu that drops down.
+                .. tab-item:: Mac OS 
+
+                    Press the "File" button in the top left corner of your screen. Select "New File". Select "Python File" from the menu that drops down. 
+                    You may need to hover your mouse around the top of the screen for the menu bar to appear
 
                 .. tab-item:: Linux
 
-                    Press the "File" button in the top left corner of the screen. Select "New File". Select "Python File" from the menu that drops down.
+                    Press the "File" button in the top left corner of your screen. Select "New File". Select "Python File" from the menu that drops down. 
+                    You may need to hover your mouse around the top of the screen for the menu bar to appear
 
 
 
@@ -36,19 +49,60 @@ Selecting the right interpreter
 
 .. card::
 
-    Once you've created a python file you need to selecet the interpreter. 
+    
 
-    #. Press "CTRL" + "Shift" +"p"
-    #. type "python: select interpreter" and press once this shows up under the options 
-    #. Choose the option similar to "Python 3.11.5 ('base')" (the numbers may be different on your own PC)
+    Once you've created a python file you need to selecet your interpreter. In short, the interpreter is the version of Python that you use to execute your code.
+
+    .. tab-set::
+    
+        .. tab-item:: Windows 
+
+            1. Press "CTRL" + "Shift" +"p"
+            2. type "Python: Select Interpreter" and press once this shows up under the options 
+
+            .. image:: images/VScode_windows2.png
+                        :width: 450
+                        :align: center
+                        :alt: IDLE Shell
+
+            3. Choose the option similar to "Python 3.11.5 ('base')" (You may have a different version of Python on your own PC)
+
+            
+
+            .. image:: images/VScode_windows3.png
+                        :width: 450
+                        :align: center
+                        :alt: IDLE Shell
+
+
+            .. tip::
+
+                In VS Code, pressing "CTRL" + "Shift" +"p" brings down a search bar where you can search for anything you need help with
+
+        .. tab-item:: Mac OS
+
+            #. Press "CMD" + "Shift" +"p"
+            #. type "Python: Select Interpreter" and press once this shows up under the options 
+            #. Choose the option similar to "Python 3.11.5 ('base')" (You may have a different version of Python on your own PC)
+
+            .. tip::
+
+                In VS Code, pressing "CMD" + "Shift" +"p" brings down a search bar where you can search for anything you need help with
+
+        .. tab-item:: Linux 
+
+            #. Press "CTRL" + "Shift" +"p"
+            #. type "Python: Select Interpreter" and press once this shows up under the options 
+            #. Choose the option similar to "Python 3.11.5 ('base')" (You may have a different version of Python on your own PC)
+
+            .. tip::
+
+                In VS Code, pressing "CTRL" + "Shift" +"p" brings down a search bar where you can search for anything you need help with
+
 
 .. tip::
 
-    pressing "CTRL" + "Shift" +"p" brings down a search bar where you can search for anything you need help with
-
-.. tip::
-
-    Once you've selected the right interpreter you can run all the code in your python file by clicking the playbutton icon in the top right of the screen.
+    Once you've selected the right interpreter you can run all the code in your python file by clicking the icon shaped like a play button in the top right of VS Code.
 
 
 
@@ -67,13 +121,22 @@ Terminal in VScode
 
                     Press the three dots in the top menu bar. They are next to the "View" and "Go" options. Move your mouse to "Terminal" and click "New Terminal"
 
-                .. tab-item:: Mac
+                    .. image:: images/VScode_windows4.png
+                        :width: 450
+                        :align: center
+                        :alt: IDLE Shell
+
+                .. tab-item:: Mac OS 
 
                     Move your mouse to the top of the screen. Selcet "Terminal" followed by "New Terminal"
 
                 .. tab-item:: Linux
 
                     Move your mouse to the top of the screen. Selcet "Terminal" followed by "New Terminal"
+
+.. tip::
+    You can have multiple terminals open at once. 
+    You can delete a terminal by hovering your mouse over it's name (bottom right) and pressing the icon shaped like a trash can
 
 
 
@@ -82,28 +145,80 @@ Jupyter Notebooks
 
 Jupyter notebooks give you a way to combine python code, and usual readable text similar to a word document. 
 
-.. card:: Creating a jupyter notebook
+.. card:: Creating a Jupyter notebook
 
-    #. Press "CTRL" + "Shift" + "p"
-    #. Search for "Create: new Jupyter Notebook" and press
-    #. Press the "Select Kernel" button in the top right
-    #. Click "Python Environments" and "3.11.5 ('base') (numbers may be different on your own pc)"
+    .. tab-set::
+
+                .. tab-item:: Windows 
+
+                    1. Press "CTRL" + "Shift" + "p"
+                    2. Search for "Create: New Jupyter Notebook" and press
+
+                    .. image:: images/VScode_windows5.png
+                        :width: 450
+                        :align: center
+                        :alt: IDLE Shell
+
+                    3. Press the "Select Kernel" button in the top right of the notebook
+                    4. Click "Python Environments" and "3.11.5 ('base') (You may have a different version of Python on your own PC)"
+
+                    .. image:: images/VScode_windows6.png
+                        :width: 450
+                        :align: center
+                        :alt: IDLE Shell
+
+                .. tab-item:: Mac OS 
+
+                    #. Press "CMD" + "Shift" + "p"
+                    #. Search for "Create: New Jupyter Notebook" and press
+                    #. Press the "Select Kernel" button in the top right of the notebook
+                    #. Click "Python Environments" and "3.11.5 ('base') (You may have a different version of Python on your own PC)"
+
+                .. tab-item:: Linux
+
+                    #. Press "CTRL" + "Shift" + "p"
+                    #. Search for "Create: New Jupyter Notebook" and press
+                    #. Press the "Select Kernel" button in the top right of the notebook
+                    #. Click "Python Environments" and "3.11.5 ('base') (You may have a different version of Python on your own PC)"
+
+    
 
 
 .. card:: Code blocks and Text Blocks
 
     If you hover your mouse around the top of the notebook two icons will appear. "+ Code" and "+ Markdown".
     Press "+ Code" to create a code block.
+
+    .. image:: images/VScode_windows7.png
+                        :width: 450
+                        :align: center
+                        :alt: IDLE Shell
+
     You can execute the code in a block by pressing the play-button next to the code block or pressing "Shift"+"Enter".
 
+    .. image:: images/VScode_windows8.png
+                        :width: 450
+                        :align: center
+                        :alt: IDLE Shell
+
     Markdown cells allow you to type plain text. Running these cells will just print completely normal text. 
+    You can finish the markdown cell by pressing "Shift" + "Enter"
+
+    .. image:: images/VScode_windows9.png
+                        :width: 450
+                        :align: center
+                        :alt: IDLE Shell
+
+
+
+    You can create more blocks of either code or markdown by hovering your mouth below any code or markdown cell. 
 
 
 
 .. warning:: 
     If it is your first time creating a notebook, running a code block may give you the following error:
-    **"Running cells with 'base (python 3.11.5)' requires the ipykernel package"**. 
-    Simply click install and wait for the code to run  
+    *"Running cells with 'base (python 3.11.5)' requires the ipykernel package"*. 
+    Simply click "install" and wait for the code to run  
 
 
 
