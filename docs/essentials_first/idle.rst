@@ -89,7 +89,7 @@ You should see a blank page waiting for you to write your code. As an example, t
            :align: center
            :alt: IDLE Shell
 
-Notice how the title of the window changed from "untitled" to "\*untitled\*" Now we need to save our script. Go to *File > Save* to name and save your script at a convenient location in your computer. Let's name it *sum.py*.
+The program above is just a simple script which adds 2 numbers and prints the result of the sum. Notice how the title of the window changed from "untitled" to "\*untitled\*". This indicates that the script we have needs to be saved. Therefore, we now need to save our script. Go to *File > Save* to name and save your script at a convenient location in your computer. Let's name it *sum.py*.
 
 .. tab-set::
 
