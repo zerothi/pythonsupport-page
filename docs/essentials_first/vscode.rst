@@ -37,6 +37,11 @@ Creating a Python-file
                     Press the "File" button in the top left corner of your screen. Select "New File". Select "Python File" from the menu that drops down. 
                     You may need to hover your mouse around the top of the screen for the menu bar to appear
 
+                    .. image:: images/VScode_mac1.png
+                        :width: 450
+                        :align: center
+                        :alt: IDLE Shell
+
                 .. tab-item:: Linux
 
                     Press the "File" button in the top left corner of your screen. Select "New File". Select "Python File" from the menu that drops down. 
@@ -81,9 +86,19 @@ Selecting the right interpreter
 
         .. tab-item:: Mac OS
 
-            #. Press "CMD" + "Shift" +"p"
-            #. type "Python: Select Interpreter" and press once this shows up under the options 
-            #. Choose the option similar to "Python 3.11.5 ('base')" (You may have a different version of Python on your own PC)
+            1. Press "CMD" + "Shift" +"p"
+            2. type "Python: Select Interpreter" and press once this shows up under the options 
+
+            .. image:: images/VScode_mac2.png
+                        :width: 450
+                        :align: center
+                        :alt: IDLE Shell
+            3. Choose the option similar to "Python 3.11.5 ('base')" (You may have a different version of Python on your own PC)
+
+            .. image:: images/VScode_mac3.png
+                        :width: 450
+                        :align: center
+                        :alt: IDLE Shell
 
             .. tip::
 
@@ -130,6 +145,11 @@ Terminal in VS Code
 
                     Move your mouse to the top of the screen. Selcet "Terminal" followed by "New Terminal"
 
+                    .. image:: images/VScode_mac4.png
+                        :width: 450
+                        :align: center
+                        :alt: IDLE Shell
+
                 .. tab-item:: Linux
 
                     Move your mouse to the top of the screen. Selcet "Terminal" followed by "New Terminal"
@@ -175,10 +195,21 @@ Jupyter notebooks give you a way to combine python code, and usual readable text
 
                 .. tab-item:: Mac OS 
 
-                    #. Press "CMD" + "Shift" + "p"
-                    #. Search for "Create: New Jupyter Notebook" and press
-                    #. Press the "Select Kernel" button in the top right of the notebook
-                    #. Click "Python Environments" and "3.11.5 ('base') (You may have a different version of Python on your own PC)"
+                    1. Press "CMD" + "Shift" + "p"
+                    2. Search for "Create: New Jupyter Notebook" and press
+
+                    .. image:: images/VScode_mac5.png
+                        :width: 450
+                        :align: center
+                        :alt: IDLE Shell
+
+                    3. Press the "Select Kernel" button in the top right of the notebook
+                    4. Click "Python Environments" and "3.11.5 ('base') (You may have a different version of Python on your own PC)"
+
+                    .. image:: images/VScode_mac6.png
+                        :width: 450
+                        :align: center
+                        :alt: IDLE Shell
 
                     .. warning::
                         If the "Create: New Jupyter notebook" option does not pop up, you need to install the Jupyter extension for VS Code. This is easily done by
