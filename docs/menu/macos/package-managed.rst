@@ -1,6 +1,7 @@
 MacOS - Package managed installation guide
 ================================
-
+.. tip::
+    You can copy and paste all code in the grey code blocks below by hovering your mouse over the block and pressing the icon in the top right.
 
 Step 1: Install Homebrew
 -------------------------

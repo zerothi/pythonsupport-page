@@ -1,6 +1,9 @@
 IDLE
 ====
 
+.. tip::
+    You can copy and paste all code in the grey code blocks below by hovering your mouse over the block and pressing the icon in the top right.
+
 IDLE is an integrated development environment (IDE) that is installed automatically with your Python installation on Windows and MacOS computers. It provides you with an environment where you can write Python scripts and run them, or you can write Python codes line by line to execute immediately (this feature of an IDE is called interactive interpreter). 
 
 IDLE provides a GUI (Graphical User Interface) which simplifies your coding process by allowing you to interact with buttons, icons, or menus. It also has automatic highlighting and automatic indentation which would simplify your coding process. It is quite lightweight, so it would be convenient to use IDLE while learning Python or using it for your small-sized projects as a beginner. 

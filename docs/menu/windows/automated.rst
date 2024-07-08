@@ -1,6 +1,9 @@
 Windows - Automated installation guide
 ================================
 
+.. tip::
+    You can copy and paste all code in the grey code blocks below by hovering your mouse over the block and pressing the icon in the top right.
+
 Open your Command Prompt as an administrator. This can be done by searching for ``cmd``. Once you see ``Command Prompt``, on the right hand side you can select ``Run as administrator``.
 
 Next you need to copy the following line of code into your terminal and press enter.
