@@ -19,7 +19,7 @@ Creating a Python-file
 .. card::      
     
 
-    You can create a python file in VScode. This is useful if you are writing code that you will need again. 
+    You can create a python file in VS code. This is useful if you are writing code that you will need again. 
 
             .. tab-set::
 
