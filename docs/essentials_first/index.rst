@@ -14,6 +14,6 @@ Here you will find the essentials...etcetera!
    :maxdepth: 1
 
    packages.rst
-   vscode.rst
    idle.rst
+   vscode.rst
    terminal.rst
