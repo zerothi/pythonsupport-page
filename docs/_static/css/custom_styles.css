@@ -102,8 +102,6 @@ p, li, a, span, div {
     #ffb900 52%
   );
 }
-<<<<<<< Updated upstream
-=======
 
 /* STYLES TO CHANGE TOC TREES
 
@@ -126,4 +124,3 @@ p, li, a, span, div {
 .toctree-l1 a:active {
   color:#E83F48; /* Change the color when the link is active */
 }
->>>>>>> Stashed changes

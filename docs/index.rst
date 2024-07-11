@@ -86,47 +86,7 @@ Discord -- `channel <ps-discord-general_>`_ and `invite link <ps-discord-invite_
 .. include:: /timetable/index.rst
 
 
-.. note::
-
-   Currently we only support installation problems related
-   to Python (it self) and packages required in specific courses.
-   These are the Polytechnical Foundation courses:
-   
-   - :course-base:`01001`, :course-base:`01002`, :course-base:`01003` and :course-base:`01004`
-     Mathematics 1
-   - :course-base:`02002` and :course-base:`02003`
-     Computer Programming
-   - :course-base:`02402`
-     Statistics
-   - :course-base:`10060`, :course-base:`10063` and :course-base:`10065`
-     Physics
-   - :course-base:`26020`, :course-base:`26021` and :course-base:`26022`
-     Chemistry
-   - :course-base:`27020`
-     Bioengineering
-   - :course-base:`42620`, :course-base:`42622`
-     Science, Technology and Society
-   - :course-base:`42500`, :course-base:`42501`, :course-base:`42504`
-     Innovation in Engineering
-   - :course-base:`12100`
-     Quantitative Sustainability
-
-   Many more will come! Our support unit is new, and we wish to figure
-   out what the need is among our students, please do not hesitate
-   to contact us regarding other courses, we will use it to understand the
-   need for Python support at DTU.
-
 .. toctree::
-<<<<<<< Updated upstream
-   :maxdepth: 2
-   :hidden:
-
-
-   essentials_first/index.rst
-   courses/index.rst
-   menu/index.rst
-   faqs/index.rst
-=======
     :maxdepth: 2
     :hidden:
 
@@ -134,27 +94,7 @@ Discord -- `channel <ps-discord-general_>`_ and `invite link <ps-discord-invite_
     courses/index.rst
     menu/index.rst
     faqs/index.rst
->>>>>>> Stashed changes
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Advanced usage
-   
-   python/pip.rst
-   python/conda.rst
-   os/index.rst
-   ides/index.rst
-   python/environments.rst
-   python/uninstall.rst
-   src/about.rst
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: Supported functionalities
 
-   {{python_version_min}} -- {{python_version_max}} <python/supported.rst>
-   Conda <python/supported.rst>
-   Python.org <python/supported.rst>
-   Virtual Environments <python/supported.rst>
+
