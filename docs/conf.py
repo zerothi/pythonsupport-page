@@ -3,6 +3,8 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+
+
 print("vvvvv INITIALIZING conf.py vvvvv")
 
 # -- Project information -----------------------------------------------------
@@ -11,6 +13,11 @@ from pathlib import Path
 import os
 import datetime
 import sys
+
+html_logo= 'docs/_static/Coral_Red_RGB.png'
+
+
+templates_path = ['_templates']
 
 _cwd = Path().resolve()
 
@@ -45,7 +52,10 @@ def version2tuple(vers):
 year = datetime.date.today().year
 
 project = 'DTU Python support'
-html_title = "DTU Python Installation Support"
+# conf.py
+html_title = ""
+html_short_title = ""
+
 copyright = f'{year}, DTU Python support'
 author = 'DTU Python support developers'
 
@@ -245,27 +255,27 @@ _icon_links = [
 ]
 
 
-html_theme_options = {
-    "path_to_docs": "docs/",
-    "use_repository_button": True,
-    "repository_provider": "github",
-    "repository_url": _pythonsupport["repository"],
-    "use_edit_page_button": True,
-    "use_fullscreen_button": True,
-    "header_links_before_dropdown": 4,
-    "navbar_align": "content",
-    "navbar_center": ["navbar-nav"],
-    "icon_links": _icon_links,
-}
+# html_theme_options = {
+#     "path_to_docs": "docs/",
+#     "use_repository_button": True,
+#     "repository_provider": "github",
+#     "repository_url": _pythonsupport["repository"],
+#     "use_edit_page_button": True,
+#     "use_fullscreen_button": True,
+#     "header_links_before_dropdown": 4,
+#     "navbar_align": "content",
+#     "navbar_center": ["navbar-nav"],
+#     "icon_links": _icon_links,
+# }
 
-# currently not working... I don't know why..
-_html_sidebars = {
-    "**": [
-        "search-field",
-        "sidebar-nav-bs",
-        "sidebar-ethical-ads",
-    ]
-}
+# # currently not working... I don't know why..
+# _html_sidebars = {
+#     "**": [
+#         "search-field",
+#         "sidebar-nav-bs",
+#         "sidebar-ethical-ads",
+#     ]
+# }
 
 _course_json_url = "_static/course_switcher.json"
 if False:
@@ -281,8 +291,8 @@ html_js_files = [
 ]
 
 html_css_files = [
-    ("css/questionairStyles.css",{'priority':999}),
-    ("css/custom_styles.css",{'priority':998}),
+    ("css/questionairStyles.css", {'priority': 999}),
+    ("css/custom_styles.css", {'priority': 998}),
     "css/colors.css"
 ]
 
@@ -515,3 +525,13 @@ def setup(app):
 
 
 
+
+
+html_theme_options = {
+
+    "navbar_center": ["logo_button.html","navbar-nav"]
+}
+
+templates_path = ['_templates']
+
+ 

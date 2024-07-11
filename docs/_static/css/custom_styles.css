@@ -1,3 +1,41 @@
+/* _static/css/custom_styles.css */
+
+/* Import custom font */
+@font-face {
+  font-family: 'NeoSans';
+  src: url('../fonts/Neo Sans Std Regular/Neo Sans Std Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeoSans';
+  src: url('../fonts/Neo Sans Std Bold/Neo Sans Std Bold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeoSans';
+  src: url('../fonts/Neo Sans Std Light/Neo Sans Std Light.otf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Apply the font to the body and other elements */
+body {
+  font-family: 'NeoSans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'NeoSans', sans-serif;
+  font-weight: bold; /* Bold headings */
+}
+
+p, li, a, span, div {
+  font-family: 'NeoSans', sans-serif;
+}
+
 
 /* vvvvv STYLES TO MAKE TABS MORE VISUAL vvvvv */
 
@@ -64,4 +102,28 @@
     #ffb900 52%
   );
 }
+<<<<<<< Updated upstream
+=======
 
+/* STYLES TO CHANGE TOC TREES
+
+/* _static/css/custom_styles.css */
+
+/* Customize toctree links */
+.toctree-l1 a {
+  text-decoration: none; /* Remove the underline */
+}
+
+.toctree-l1 a:hover {
+  color: #0056b3; /* Change the color on hover */
+  text-decoration: underline; /* Add underline on hover if needed */
+}
+
+.toctree-l1 a:visited {
+  color: #E83F48; /* Change the color for visited links */
+}
+
+.toctree-l1 a:active {
+  color:#E83F48; /* Change the color when the link is active */
+}
+>>>>>>> Stashed changes

@@ -1,7 +1,7 @@
 # The configurations that used for the recording, feel free to edit them
 config:
   cols: 100
-  rows: 35
+  rows: 5
 
 records:
   - delay: 100

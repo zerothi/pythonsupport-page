@@ -1,10 +1,10 @@
 
 
 
-Essentials - 1 :sup:`st` year
+Essentials
 ===================================
 
-Here you will find the essentials...etcetera!
+Here you will find the essential tools that you will need to install and run Python during your first year at DTU as a Bachelor student.
 
 
 
@@ -14,6 +14,6 @@ Here you will find the essentials...etcetera!
    :maxdepth: 1
 
    packages.rst
-   idle.rst
    vscode.rst
+   idle.rst
    terminal.rst

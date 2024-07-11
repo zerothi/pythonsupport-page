@@ -34,7 +34,7 @@ records:
     content: "\e[m"
   - delay: 100
     content: "\e[?25l\e[93m\e[6;25Hpython \e[?25h"
-  - delay: 100
+  - delay: 100  
     content: "\e[m"
   - delay: 100
     content: "\e[?25l\e[93m\e[6;25Hpython \e[m-\e[?25h"
