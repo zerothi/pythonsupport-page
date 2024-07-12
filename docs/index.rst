@@ -31,7 +31,7 @@ to courses at DTU.
    Here you can find important information to get started once python is installed
 
    .. button-link:: essentials_first/index.html
-      :color: secondary
+      :color: primary
       :expand:
       :click-parent:
 
