@@ -1,9 +1,10 @@
 .. _course-02461:
 
-:course-base:`02461`
-========================
+**Intelligent systems** (:course-base:`02461`)
+==============================================
 
-Find your study year below, the course database site is :course-base:`here <02461>`:
+| Here you will find installation instructions for Introduction to intelligent systems. Both the current and previous versions can be seen below
+| The course database site is :course-base:`here <02461>`:
 
 .. toctree::
    :maxdepth: 1

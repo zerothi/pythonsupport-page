@@ -3,6 +3,7 @@
 
 DTU Courses
 ===========
+Here you will find course specific guidelines on how to install Python. 
 
 .. note::
 
@@ -24,7 +25,7 @@ DTU Courses
    :caption: Course guides
    :maxdepth: 1
 
-   01001_01003/01001_01003.rst
+   01001_01003/01001_01003.rst 
    01002_01004/01002_01004.rst
    02002_02003/02002_02003.rst
    02461/02461.rst

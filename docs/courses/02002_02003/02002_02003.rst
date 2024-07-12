@@ -1,12 +1,12 @@
 .. _course-02002:
 .. _course-02003:
 
-02002 / 02003
-=============
+**Intro to programming** (:course-base:`02002` / :course-base:`02003`)
+========================================================================
 
-Installation instructions for the :course-base:`02002` and :course-base:`02003` courses.
-
-The guidelines for the previous years will also be located here.
+| These are the installation instructions for Introduction to programming in Python. Both the current and previous versions can be found below
+| note that course :course-base:`02002` is the Danish version, while  :course-base:`02003` is the English version of the course.
+| The course homepage can be found :course-home:`here <02002>`.
 
 .. toctree::
    :maxdepth: 1
