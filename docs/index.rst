@@ -19,7 +19,7 @@ We are here to help you with Python installation problems related
 to courses at DTU.
 
 
-.. card:: New to Python?
+.. card:: Need to install Python?
    :class-card: sd-color-primary
 
    .. raw:: html
