@@ -19,7 +19,13 @@ We are here to help you with Python installation problems related
 to courses at DTU.
 
 
-.. card:: Need to install Python?
+.. card:: New to Python?
+   :class-card: sd-color-primary
+
+   .. raw:: html
+      :file: html/userLevel_selector.html
+
+.. card:: :fas:`book-open`  Essentials for 1 :sup:`st` year students 
    :class-card: sd-color-primary
 
    Here you can find important information to get started once python is installed
@@ -66,35 +72,25 @@ Reach us
 
 ------------
 Office hours
-   we will have physical presence at DTU Lyngby campus on differing locations
-   depending on the used lecture rooms in the Polytechnical Foundation courses.
-   See further down for our locations during specific weeks of the semester.
-   This page will be updated continuously.
+------------
+ 
+.. include:: /timetable/timetables.rst
 
-Mail -- :mail:`pythonsupport@dtu.dk`  |  {{online_days}} in the evening
-   Outside of office hours (during the semester) we can be contacted through emails.
-   We strive to return answers as soon as possible.
-
-Discord -- `channel <ps-discord-general_>`_ and `invite link <ps-discord-invite_>`_  |  {{online_days}} in the evening
-   Our support team will also be present on the Discord chat service during the semester.
-
-   Using the Discord channel requires signing up to Discord's terms, DTU
-   has no control over Discord and how they use your data. If you feel uncomfortable
-   about signing up, please use the email or the physical meet-ups.
+*Available via online channels (e-mail and Discord) during all office hours.*
 
 
-.. include:: /timetable/index.rst
+.. .. todo::
 
 
 .. toctree::
-    :maxdepth: 2
-    :hidden:
-
-    essentials_first/index.rst
-    courses/index.rst
-    menu/index.rst
-    faqs/index.rst
+   :maxdepth: 2
+   :hidden:
 
 
+   essentials_first/index.rst
+   courses/index.rst
+   menu/index.rst
+   faqs/index.rst
+ 
 
 
