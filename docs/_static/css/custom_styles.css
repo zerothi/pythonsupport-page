@@ -102,25 +102,88 @@ p, li, a, span, div {
     #ffb900 52%
   );
 }
-
-/* STYLES TO CHANGE TOC TREES
+/* _static/css/custom_styles.css */
+/* _static/css/custom_styles.css */
 
 /* _static/css/custom_styles.css */
 
 /* Customize toctree links */
-.toctree-l1 a {
+.toctree-wrapper .toctree-l1 a {
   text-decoration: none; /* Remove the underline */
+  color: #E83F48 !important; /* Set the link text to the specified red */
 }
 
-.toctree-l1 a:hover {
-  color: #0056b3; /* Change the color on hover */
+.toctree-wrapper .toctree-l1 a:hover {
+  color: black !important; /* Change the color on hover */
   text-decoration: underline; /* Add underline on hover if needed */
 }
 
-.toctree-l1 a:visited {
-  color: #E83F48; /* Change the color for visited links */
+.toctree-wrapper .toctree-l1 a:visited {
+  color: #E83F48 !important; /* Ensure visited links are the specified red */
 }
 
-.toctree-l1 a:active {
-  color:#E83F48; /* Change the color when the link is active */
+.toctree-wrapper .toctree-l1 a:active {
+  color: #E83F48 !important; /* Ensure active links are the specified red */
 }
+
+/* Add bullets to the toctree items */
+.toctree-wrapper ul {
+  list-style-type: disc !important; /* Disc bullet for the first level */
+  padding-left: 20px; /* Adjust the padding as needed */
+}
+
+.toctree-wrapper ul ul {
+  list-style-type: circle !important; /* Circle bullet for nested levels */
+  padding-left: 40px; /* Adjust the padding for nested levels */
+}
+
+.toctree-wrapper ul ul ul {
+  list-style-type: square !important; /* Square bullet for deeper nested levels */
+  padding-left: 60px; /* Adjust the padding for deeper nested levels */
+}
+
+/* Ensure the list items are displayed correctly */
+.toctree-wrapper li {
+  display: list-item !important;
+  list-style: inherit !important; /* Ensure bullets are inherited */
+}
+
+/* Set bullet points to always appear in the specified red */
+.toctree-wrapper ul li {
+  color: #E83F48 !important; /* Set bullet points to the specified red */
+}
+
+.toctree-wrapper ul li::marker {
+  color: #E83F48 !important; /* Ensure the marker (bullet) itself is the specified red */
+}
+
+/* Set headers inside the toctree to the specified red */
+.toctree-wrapper .toctree-l1 a {
+  color: #E83F48 !important; /* Ensure the headers inside the toctree are the specified red */
+}
+
+.toctree-wrapper .toctree-l1 a:hover,
+.toctree-wrapper .toctree-l1 a:visited,
+.toctree-wrapper .toctree-l1 a:active {
+  color: #E83F48 !important; /* Maintain the specified red color on hover, visited, and active states */
+}
+
+/* Set sidebar links and headers to the specified red */
+div[role="navigation"] a.nav-link {
+  color: #E83F48 !important; /* Set the sidebar link color to the specified red */
+}
+
+div[role="navigation"] a.nav-link:hover,
+div[role="navigation"] a.nav-link:visited,
+div[role="navigation"] a.nav-link:active {
+  color: #E83F48 !important; /* Maintain the specified red color on hover, visited, and active states */
+}
+
+div[role="navigation"] .caption, /* Sidebar headers */
+div[role="navigation"] .current {
+  color: #E83F48 !important; /* Set sidebar headers and current item to the specified red */
+}
+
+
+
+
