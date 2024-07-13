@@ -4,10 +4,9 @@ VS Code
 .. note::
     If you are in your first year, you probably will not need to use VS Code until **week 7 or 8 of your studies**. Just remember, that this page is here to get you started with some basic tips whenever you need. 
 
-Similarly to the Idle, VS Code is a place to write your Python code. Unlike the idle, VS Code has a lot of features to help you code, 
-and it is very effective for larger projects. VS Code is very useful for things such as debugging, organizing files and collaborating with other people for coding.
-It also comes with many extensions that can improve visual clarity, help you collaborate with 
-others and a particularly useful type of file for your code called jupyter notebooks (These will be explained below). 
+Similarly to the Idle, VS Code is a place to write your Python code. VS Code is great for larger projects. It is useful for things like debugging, organizing files and collaborating with other people for coding.
+It also comes with extensions that can improve visual clarity, help you collaborate with 
+others and a particularly useful type of file called jupyter notebooks (These will be explained below). 
 
 
 

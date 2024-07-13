@@ -14,6 +14,6 @@ Here you will find the essential tools that you will need to install and run Pyt
    :maxdepth: 1
 
    packages.rst
+   condensedidle.rst
    vscode.rst
-   idle.rst
    terminal.rst
