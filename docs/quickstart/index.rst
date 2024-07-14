@@ -1,7 +1,7 @@
 
 .. _quickstart:
 
-**Install Python**
+Install Python
 ===========
 
 In the autumn semester of 2023, we will be following the guidelines in the Mathematics 1

@@ -1,189 +1,413 @@
-/* _static/css/custom_styles.css */
+  /* _static/css/custom_styles.css */
 
-/* Import custom font */
-@font-face {
-  font-family: 'NeoSans';
-  src: url('../fonts/Neo Sans Std Regular/Neo Sans Std Regular.otf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  /* Import custom font */
+  @font-face {
+    font-family: 'NeoSans';
+    src: url('../fonts/Neo Sans Std Regular/Neo Sans Std Regular.otf') fort('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'NeoSans';
+    src: url('../fonts/Neo Sans Std Bold/Neo Sans Std Bold.otf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'NeoSans';
+    src: url('../fonts/Neo Sans Std Light/Neo Sans Std Light.otf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  /* Apply the font to the body and other elements */
+  body {
+    font-family: 'NeoSans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'NeoSans', sans-serif;
+    font-weight: bold; /* Bold headings */
+  }
+
+  p, li, a, span, div {
+    font-family: 'NeoSans', sans-serif;
+  }
+
+
+  /* vvvvv STYLES TO MAKE TABS MORE VISUAL vvvvv */
+
+  /*The parent container of tabs*/
+  .tab-set {
+    border: 1px solid #ccc
+  }
+
+  /*Individual box of each tab*/
+  .tab-set > label {
+    margin-bottom: 0
+  }
+
+  /*Container appearing below the tabs, with the contents of the active tab*/
+  .tab-content {
+    background-color: aliceblue;
+    padding: 20px
+  }
+
+  /*Initial paragraph of the content. By default there's a top margin 
+  but we already specify a padding of 20 px for the content no matter what the
+  first child is.*/
+  .tab-content > p:first-child {
+    margin-top: 0
+  }
+
+  /* ^^^^^ STYLES TO MAKE TABS MORE VISUAL ^^^^^ */
+
+  /* To center the logo on the page */
+
+  /* Actual logo */
+  .microsoft-logo {
+    position: relative;
+    width: 50vmin;
+    height: 50vmin;
+    overflow: hidden;
+  }
+
+  #microsoft-logo:before {
+    content: "";
+    position: absolute;
+    height: 24.1vmin;
+    width: 50vmin;
+    background: linear-gradient(
+      90deg,
+      #f25022 48%,
+      transparent 48%,
+      transparent 52%,
+      #7fba00 52%
+    );
+  }
+
+  #microsoft-logo:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 24.1vmin;
+    width: 50vmin;
+    background: linear-gradient(
+      90deg,
+      #00a4ef 48%,
+      transparent 48%,
+      transparent 52%,
+      #ffb900 52%
+    );
+  }
+  /* _static/css/custom_styles.css */
+  /* _static/css/custom_styles.css */
+
+  /* _static/css/custom_styles.css */
+
+  /* Customize toctree links */
+  .toctree-wrapper .toctree-l1 a {
+    text-decoration: none; /* Remove the underline */
+    color: #E83F48 !important; /* Set the link text to the specified red */
+  }
+
+  .toctree-wrapper .toctree-l1 a:hover {
+    color: black !important; /* Change the color on hover */
+    text-decoration: underline; /* Add underline on hover if needed */
+  }
+
+  .toctree-wrapper .toctree-l1 a:visited {
+    color: #E83F48 !important; /* Ensure visited links are the specified red */
+  }
+
+  .toctree-wrapper .toctree-l1 a:active {
+    color: #E83F48 !important; /* Ensure active links are the specified red */
+  }
+
+  /* Add bullets to the toctree items */
+  .toctree-wrapper ul {
+    list-style-type: disc !important; /* Disc bullet for the first level */
+    padding-left: 20px; /* Adjust the padding as needed */
+  }
+
+  .toctree-wrapper ul ul {
+    list-style-type: circle !important; /* Circle bullet for nested levels */
+    padding-left: 40px; /* Adjust the padding for nested levels */
+  }
+
+  .toctree-wrapper ul ul ul {
+    list-style-type: square !important; /* Square bullet for deeper nested levels */
+    padding-left: 60px; /* Adjust the padding for deeper nested levels */
+  }
+
+  /* Ensure the list items are displayed correctly */
+  .toctree-wrapper li {
+    display: list-item !important;
+    list-style: inherit !important; /* Ensure bullets are inherited */
+  }
+
+  /* Set bullet points to always appear in the specified red */
+  .toctree-wrapper ul li {
+    color: #E83F48 !important; /* Set bullet points to the specified red */
+  }
+
+  .toctree-wrapper ul li::marker {
+    color: #E83F48 !important; /* Ensure the marker (bullet) itself is the specified red */
+  }
+
+  /* Set headers inside the toctree to the specified red */
+  .toctree-wrapper .toctree-l1 a {
+    color: #E83F48 !important; /* Ensure the headers inside the toctree are the specified red */
+  }
+
+  .toctree-wrapper .toctree-l1 a:hover,
+  .toctree-wrapper .toctree-l1 a:visited,
+  .toctree-wrapper .toctree-l1 a:active {
+    color: #E83F48 !important; /* Maintain the specified red color on hover, visited, and active states */
+  }
+
+  /* Set sidebar links and headers to the specified red */
+  div[role="navigation"] a.nav-link {
+    color: #E83F48 !important; /* Set the sidebar link color to the specified red */
+  }
+
+  div[role="navigation"] a.nav-link:hover,
+  div[role="navigation"] a.nav-link:visited,
+  div[role="navigation"] a.nav-link:active {
+    color: #E83F48 !important; /* Maintain the specified red color on hover, visited, and active states */
+  }
+
+  div[role="navigation"] .caption, /* Sidebar headers */
+  div[role="navigation"] .current {
+    color: #E83F48 !important; /* Set sidebar headers and current item to the specified red */
+  }
+
+
+
+
+  /* custom.css */
+  .tab-content {
+    color: #E83F48  !important;
+  }
+
+  /* Change the background color of the selected item to black */
+  .toctree-l1.current a {
+    color: #E83F48  !important; /* Ensure text is readable */
+  }
+
+  
+/* Default navbar link styles */
+  nav.navbar a {
+    color: #E83F48 ; /* Use inherited color */
+    font-weight: normal; /* Normal font weight */
+  }
+
+  /* Styles for the active or selected navbar link */
+  nav.navbar a.active, nav.navbar a.current {
+    color: #E83F48  !important; /* Set the active link text color to black */
+    font-weight: bold !important; /* Make the active link text bold */
+  }
+
+  /* Additional class that might be used for the current page link */
+  nav.navbar .active > a {
+    color: #E83F48  !important;
+    font-weight: bold !important;
+  }
+
+/* Ensure all titles formatted with `=` are bold */
+  h1 {
+    font-weight: bold !important;
+  }
+
+  /* General hyperlink styles */
+  a {
+    color: #E83F48; /* Red color */
+    text-decoration: none; /* Remove underline */
+  }
+
+
+  /* Styles for navigation buttons (Previous and Next) */
+  .nav-button a {
+    color: #E83F48 !important; /* Red color */
+    text-decoration: none !important; /* Remove underline */
+  }
+
+  /* Change the color of the Next and Previous navigation links to red and remove underline */
+  .sphinxsidebar a, .sphinxsidebar a:visited, .sphinxsidebar a:active {
+    color: #E83F48; /* Red color */
+    text-decoration: none; /* Remove underline */
+  }
+
+  /* Add underline on hover */
+  .sphinxsidebar a:hover {
+    text-decoration: underline;
+  }
+
+  /* Ensure the bottom navigation links are also styled */
+  .wy-nav-content a[href] {
+    color: #E83F48; /* Red color */
+    text-decoration: none; /* Remove underline */
+  }
+
+ 
+
+  /* Custom CSS to change hyperlink styles */
+
+/* General hyperlink styles */
+a {
+  color: #E83F48; /* Red color */
 }
 
-@font-face {
-  font-family: 'NeoSans';
-  src: url('../fonts/Neo Sans Std Bold/Neo Sans Std Bold.otf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
+/* Hover state for hyperlinks */
+a:hover {
+  color: #E83F48 !important;
+  text-decoration: none;
+  
+   /* Add underline on hover if needed */
 }
 
-@font-face {
-  font-family: 'NeoSans';
-  src: url('../fonts/Neo Sans Std Light/Neo Sans Std Light.otf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
+/* Styles for navigation buttons (Previous and Next) */
+.nav-button a {
+  color: #E83F48 !important; /* Red color */
+  text-decoration: none !important; /* Remove underline */
 }
 
-/* Apply the font to the body and other elements */
-body {
-  font-family: 'NeoSans', sans-serif;
+/* Change the color of the Next and Previous navigation links to red and remove underline */
+.sphinxsidebar a, .sphinxsidebar a:visited, .sphinxsidebar a:active {
+  color: #E83F48 !important; /* Red color */
+  text-decoration: none; /* Remove underline */
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'NeoSans', sans-serif;
-  font-weight: bold; /* Bold headings */
+/* Add underline on hover */
+.sphinxsidebar a:hover {
+  color: #E83F48 !important;
+  text-decoration: none;
 }
 
-p, li, a, span, div {
-  font-family: 'NeoSans', sans-serif;
+/* Ensure the bottom navigation links are also styled */
+.wy-nav-content a[href] {
+  color: #E83F48 !important; /* Red color */
+  text-decoration: none; /* Remove underline */
+}
+
+.wy-nav-content a[href]:hover {
+  color: #E83F48 !important;
+  text-decoration: none; /* Add underline on hover */
 }
 
 
-/* vvvvv STYLES TO MAKE TABS MORE VISUAL vvvvv */
-
-/*The parent container of tabs*/
-.tab-set {
-  border: 1px solid #ccc
+.prev-next-title {
+  color: #E83F48 !important; /* Red color */
+  text-decoration: none !important; /* Remove underline */
+  font-weight: bold; /* Make the text bold */
 }
 
-/*Individual box of each tab*/
-.tab-set > label {
-  margin-bottom: 0
+/* Hover state for the prev-next-title */
+.prev-next-title:hover {
+  text-decoration: underline !important; /* Add underline on hover if needed */
 }
 
-/*Container appearing below the tabs, with the contents of the active tab*/
-.tab-content {
-  background-color: aliceblue;
-  padding: 20px
+
+/* Custom CSS to change the style of the reference internal nav-link */
+
+/* General styles for the reference internal nav-link class */
+a.reference.internal.nav-link {
+  color: #E83F48 !important; /* Red color */
+  text-decoration: none !important; /* Remove underline */
 }
 
-/*Initial paragraph of the content. By default there's a top margin 
- but we already specify a padding of 20 px for the content no matter what the
- first child is.*/
-.tab-content > p:first-child {
-  margin-top: 0
+/* Hover state for the reference internal nav-link */
+a.reference.internal.nav-link:hover {
+  text-decoration: underline !important;
+  font-weight: bold; 
+   /* Add underline on hover if needed */
 }
 
-/* ^^^^^ STYLES TO MAKE TABS MORE VISUAL ^^^^^ */
 
-/* To center the logo on the page */
+/* Custom CSS to hide the navbar-brand logo */
 
-/* Actual logo */
-.microsoft-logo {
-  position: relative;
-  width: 50vmin;
-  height: 50vmin;
-  overflow: hidden;
+/* Hide the element with class navbar-brand logo */
+.navbar-brand.logo {
+  display: none !important;
 }
 
-#microsoft-logo:before {
-  content: "";
-  position: absolute;
-  height: 24.1vmin;
-  width: 50vmin;
-  background: linear-gradient(
-    90deg,
-    #f25022 48%,
-    transparent 48%,
-    transparent 52%,
-    #7fba00 52%
-  );
+/* Custom CSS to hide the header-article-items header-article_inner */
+
+/* Hide the element with class header-article-items header-article_inner */
+.header-article-items.header-article_inner {
+  display: none !important;
 }
 
-#microsoft-logo:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  height: 24.1vmin;
-  width: 50vmin;
-  background: linear-gradient(
-    90deg,
-    #00a4ef 48%,
-    transparent 48%,
-    transparent 52%,
-    #ffb900 52%
-  );
-}
-/* _static/css/custom_styles.css */
-/* _static/css/custom_styles.css */
+/* Custom CSS to hide the bd-header-article noprint */
 
-/* _static/css/custom_styles.css */
-
-/* Customize toctree links */
-.toctree-wrapper .toctree-l1 a {
-  text-decoration: none; /* Remove the underline */
-  color: #E83F48 !important; /* Set the link text to the specified red */
-}
-
-.toctree-wrapper .toctree-l1 a:hover {
-  color: black !important; /* Change the color on hover */
-  text-decoration: underline; /* Add underline on hover if needed */
-}
-
-.toctree-wrapper .toctree-l1 a:visited {
-  color: #E83F48 !important; /* Ensure visited links are the specified red */
-}
-
-.toctree-wrapper .toctree-l1 a:active {
-  color: #E83F48 !important; /* Ensure active links are the specified red */
-}
-
-/* Add bullets to the toctree items */
-.toctree-wrapper ul {
-  list-style-type: disc !important; /* Disc bullet for the first level */
-  padding-left: 20px; /* Adjust the padding as needed */
-}
-
-.toctree-wrapper ul ul {
-  list-style-type: circle !important; /* Circle bullet for nested levels */
-  padding-left: 40px; /* Adjust the padding for nested levels */
-}
-
-.toctree-wrapper ul ul ul {
-  list-style-type: square !important; /* Square bullet for deeper nested levels */
-  padding-left: 60px; /* Adjust the padding for deeper nested levels */
-}
-
-/* Ensure the list items are displayed correctly */
-.toctree-wrapper li {
-  display: list-item !important;
-  list-style: inherit !important; /* Ensure bullets are inherited */
-}
-
-/* Set bullet points to always appear in the specified red */
-.toctree-wrapper ul li {
-  color: #E83F48 !important; /* Set bullet points to the specified red */
-}
-
-.toctree-wrapper ul li::marker {
-  color: #E83F48 !important; /* Ensure the marker (bullet) itself is the specified red */
-}
-
-/* Set headers inside the toctree to the specified red */
-.toctree-wrapper .toctree-l1 a {
-  color: #E83F48 !important; /* Ensure the headers inside the toctree are the specified red */
-}
-
-.toctree-wrapper .toctree-l1 a:hover,
-.toctree-wrapper .toctree-l1 a:visited,
-.toctree-wrapper .toctree-l1 a:active {
-  color: #E83F48 !important; /* Maintain the specified red color on hover, visited, and active states */
-}
-
-/* Set sidebar links and headers to the specified red */
-div[role="navigation"] a.nav-link {
-  color: #E83F48 !important; /* Set the sidebar link color to the specified red */
-}
-
-div[role="navigation"] a.nav-link:hover,
-div[role="navigation"] a.nav-link:visited,
-div[role="navigation"] a.nav-link:active {
-  color: #E83F48 !important; /* Maintain the specified red color on hover, visited, and active states */
-}
-
-div[role="navigation"] .caption, /* Sidebar headers */
-div[role="navigation"] .current {
-  color: #E83F48 !important; /* Set sidebar headers and current item to the specified red */
+/* Hide the element with class bd-header-article noprint */
+.bd-header-article.noprint {
+  display: none !important;
 }
 
 
 
 
+/* Custom CSS to remove the light blue line below selected items */
+
+/* Target the selected item and remove the border */
+.navbar a:focus, .navbar a:hover, .navbar a.active, .navbar a.current {
+  border-bottom: none !important; /* Remove the underline */
+}
+
+/* Additional rule to ensure no underline for selected nav items */
+.navbar a {
+  border-bottom: none !important; /* Ensure no underline for all navbar links */
+}
+
+/* Custom CSS to remove the light blue background and left border from the selected sidebar item */
+
+/* Target the selected sidebar item and remove the background and border */
+li.toctree-l1.current.active > a, li.toctree-l1.current > a {
+  background-color: transparent !important; /* Remove the light blue background */
+  border-left: none !important; /* Remove the left border */
+  border-bottom: none !important; /* Remove the bottom border */
+  color: #E83F48 !important; !important; /* Ensure the text color is inherited */
+  font-weight: bold !important; /* Make the text bold */
+  box-shadow: none !important; /* Remove any box shadow that might be creating the line */
+}
+
+
+
+/* Ensure the current link does not have an underline or border */
+.bd-sidebar-primary a.current {
+  color: #E83F48 !important;
+  border-left: none !important; /* Ensure no left border for the current link */
+  border-bottom: none !important; /* Ensure no bottom border for the current link */
+  text-decoration: underline !important; /* Remove underline */
+  box-shadow: none !important; /* Remove any box shadow */
+}
+
+
+/* Custom CSS to remove the light blue background and left border from all levels of the toctree */
+
+
+
+/* Specific styles for current and active links in toctree */
+.toctree-l1.current > a, .toctree-l2.current > a, .toctree-l3.current > a, .toctree-l4.current > a, .toctree-l5.current > a, .toctree-l6.current > a,
+.toctree-l1.current.active > a, .toctree-l2.current.active > a, .toctree-l3.current.active > a, .toctree-l4.current.active > a, .toctree-l5.current.active > a, .toctree-l6.current.active > a {
+  background-color: transparent !important; /* Remove background color */
+  border-left: none !important; /* Remove left border */
+  border-bottom: none !important; /* Remove bottom border */
+  text-decoration: none !important; /* Remove underline */
+  box-shadow: none !important; /* Remove any box shadow */
+  color: #E83F48 !important; /* Ensure the text color is inherited */
+  font-weight: bold !important; /* Make the text bold */
+}
+
+
+/* Custom CSS to add underline on hover for sidebar links */
+
+/* Ensure links in the sidebar are underlined on hover */
+.bd-sidebar-primary a:hover {
+  color: #E83F48 !important;
+}
+
+ 

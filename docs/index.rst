@@ -10,7 +10,7 @@
 .. todolist::
 
 
-**DTU Python Installation Support**
+DTU Python Installation Support
 ===============================
 
 

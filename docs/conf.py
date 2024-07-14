@@ -529,7 +529,8 @@ def setup(app):
 
 html_theme_options = {
 
-    "navbar_center": ["logo_button.html","navbar-nav"]
+    "navbar_center": ["logo_button.html","navbar-nav"],
+    "lefttsidebar": "false"
 }
 
 templates_path = ['_templates']
