@@ -7,7 +7,7 @@ Here you will find course specific guidelines on how to install Python.
 
 .. note::
 
-   Courses may have their own guides on how to install, we encourage
+   Courses may have their own guides on how to install. We encourage
    students to primarily refer to these resources.
    The documentation here is considered complimentary to the course
    material, unless otherwise stated by the teacher.

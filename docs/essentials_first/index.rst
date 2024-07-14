@@ -4,7 +4,7 @@
 Essentials
 ===================================
 
-Here you will find the essential tools that you will need to install and run Python during your first year at DTU as a Bachelor student.
+Here you will find the essential tools needed to install and run Python during your first year at DTU as a Bachelor student.
 
 
 

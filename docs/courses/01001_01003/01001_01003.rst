@@ -4,8 +4,8 @@
 **Mathematics 1a** (:course-base:`01001` / :course-base:`01003`)
 =================================================================
 
-| These are the installation instructions for Mathematics 1a. Both the current and previous versions can be found below
-| note that course :course-base:`01001` is the Danish version, while  :course-base:`01003` is the English version of the course.
+| These are the installation instructions for **Mathematics 1a**. Both the current and previous versions can be found below.
+| Note that course :course-base:`01001` is the Danish version, while  :course-base:`01003` is the English version of the course.
 | The course homepage can be found :course-home:`here <01001>`.
 
 .. toctree::
