@@ -410,4 +410,11 @@ li.toctree-l1.current.active > a, li.toctree-l1.current > a {
   color: #E83F48 !important;
 }
 
+/*.bd-sidebar-primary,.bd-sidebar-secondary { 
+  display: none;
+}/*
+
+
+
  
+
