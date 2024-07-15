@@ -173,20 +173,6 @@
     color: #E83F48 !important; /* Set the sidebar link color to the specified red */
   }
 
-  div[role="navigation"] a.nav-link:hover,
-  div[role="navigation"] a.nav-link:visited,
-  div[role="navigation"] a.nav-link:active {
-    color: #E83F48 !important; /* Maintain the specified red color on hover, visited, and active states */
-  }
-
-  div[role="navigation"] .caption, /* Sidebar headers */
-  div[role="navigation"] .current {
-    color: #E83F48 !important; /* Set sidebar headers and current item to the specified red */
-  }
-
-
-
-
   /* custom.css */
   .tab-content {
     color: #E83F48  !important;
@@ -217,7 +203,7 @@
   }
 
 /* Ensure all titles formatted with `=` are bold */
-  h1 {
+  h1, h2 {
     font-weight: bold !important;
   }
 
@@ -415,6 +401,118 @@ li.toctree-l1.current.active > a, li.toctree-l1.current > a {
 }/*
 
 
+/* Ensure the navbar itself is taking up the full width and height without extra space */
+.navbar {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center;     /* Center items vertically */
+  width: 100%;
+  height: auto;            /* Allow the height to adjust based on content */
+  padding: 0;              /* Remove default padding */
+  margin: 0;               /* Remove default margin */
+}
 
- 
+/* Center and style .navbar-icon-links */
+.navbar-icon-links {
+  display: flex;
+  justify-content: center; /* Center icons horizontally */
+  align-items: center;     /* Center icons vertically */
+  width: auto;             /* Adjust width based on content */
+  padding: 0;              /* Remove default padding */
+  margin: 0;               /* Remove default margin */
+  list-style-type: none;   /* Remove list style */
+  flex-wrap: nowrap;       /* Prevent wrapping to the next line */
+}
+
+/* Ensure each icon is evenly spaced */
+.navbar-icon-links > li {
+  display: flex;           /* Ensure each item is flex */
+  align-items: center;     /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  margin: 0 10px;          /* Adjust the spacing as needed */
+}
+
+/* Ensure the icons are properly sized and styled */
+.navbar-icon-links > li > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1.5em;        /* Adjust the size of the icons */     /* Set the color to match the text color */
+}
+
+
+/* Reduce the space above the navbar */
+.header, .nav, .navbar-container {
+  margin-top: 0;           /* Remove any top margin */
+  padding-top: 0;          /* Remove any top padding */
+}
+
+/* Reduce the space in sidebar */
+.bd-sidebar-primary {
+  padding-top: 0;          /* Remove any top padding */
+  margin-top: 0;           /* Remove any top margin */
+}
+
+.sidebar-primary-item {
+  margin-top: 0;           /* Remove any top margin */
+  padding-top: 0;          /* Remove any top padding */
+}
+
+.bd-container__inner {
+  padding-top: 0;          /* Remove any top padding */
+  margin-top: 0;           /* Remove any top margin */
+}
+
+.bd-container {
+  padding-top: 0;          /* Remove any top padding */
+  margin-top: 0;           /* Remove any top margin */
+}
+
+/* Additional adjustments if needed */
+.body {
+  margin-top: 0;           /* Remove any top margin */
+  padding-top: 0;          /* Remove any top padding */
+}
+
+/* Specific adjustment for the main container if applicable */
+.main-container {
+  padding-top: 0 !important; /* Force remove top padding if present */
+  margin-top: 0 !important;  /* Force remove top margin if present */
+}
+
+
+
+ /* General hyperlink styles */
+ a {
+  color: #E83F48; /* Red color */
+  text-decoration: none; /* Remove underline */
+}
+
+
+
+
+
+.reference.external {
+  color:black; /* Tomato color */
+}
+
+
+/* Change the color of the hover effect */
+a.reference.external:hover {
+  color:#E83F48 ; /* SteelBlue color */
+}
+
+/* Change the color of the visited link */
+a.reference.external:visited {
+  color:black ; /* SlateBlue color */
+}
+
+
+
+/* Change the color of the underline for active icons in the sidebar */
+.navbar-icon-links > li > a.active, .navbar-icon-links > li > a:focus, .navbar-icon-links > li > a:hover {
+  border-bottom: 2px solid #E83F48; /* Change the underline color to red */
+}
+
 
