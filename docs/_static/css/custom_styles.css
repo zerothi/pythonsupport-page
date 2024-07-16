@@ -12,14 +12,14 @@
     font-family: 'NeoSans';
     src: url('../fonts/Neo Sans Std Bold/Neo Sans Std Bold.otf') format('truetype');
     font-weight: bold;
-    font-style: normal;
+    font-style: bold;
   }
 
   @font-face {
     font-family: 'NeoSans';
     src: url('../fonts/Neo Sans Std Light/Neo Sans Std Light.otf') format('truetype');
     font-weight: 300;
-    font-style: normal;
+    font-style: light;
   }
 
   /* Apply the font to the body and other elements */
@@ -217,9 +217,14 @@
   /* Styles for navigation buttons (Previous and Next) */
   .nav-button a {
     color: #E83F48 !important; /* Red color */
-    text-decoration: none !important; /* Remove underline */
+    text-decoration: none !important; 
+    border-bottom-color:  #E83F48 !important; 
+    /* Remove underline */
   }
 
+
+
+  
   /* Change the color of the Next and Previous navigation links to red and remove underline */
   .sphinxsidebar a, .sphinxsidebar a:visited, .sphinxsidebar a:active {
     color: #E83F48; /* Red color */
@@ -228,7 +233,8 @@
 
   /* Add underline on hover */
   .sphinxsidebar a:hover {
-    text-decoration: underline;
+    border-bottom-color: #E83F48 !important
+    ;
   }
 
   /* Ensure the bottom navigation links are also styled */
@@ -249,7 +255,7 @@ a {
 /* Hover state for hyperlinks */
 a:hover {
   color: #E83F48 !important;
-  text-decoration: none;
+  border-bottom-color: #E83F48 !important;
   
    /* Add underline on hover if needed */
 }
@@ -257,19 +263,24 @@ a:hover {
 /* Styles for navigation buttons (Previous and Next) */
 .nav-button a {
   color: #E83F48 !important; /* Red color */
-  text-decoration: none !important; /* Remove underline */
+  border-bottom-color: #E83F48 !important
+  /* Remove underline */
 }
 
 /* Change the color of the Next and Previous navigation links to red and remove underline */
 .sphinxsidebar a, .sphinxsidebar a:visited, .sphinxsidebar a:active {
   color: #E83F48 !important; /* Red color */
-  text-decoration: none; /* Remove underline */
+  border-bottom-color: #E83F48 !important;
+
 }
 
 /* Add underline on hover */
 .sphinxsidebar a:hover {
   color: #E83F48 !important;
   text-decoration: none;
+  border-bottom-color: #E83F48 !important;
+
+  
 }
 
 /* Ensure the bottom navigation links are also styled */
@@ -280,20 +291,33 @@ a:hover {
 
 .wy-nav-content a[href]:hover {
   color: #E83F48 !important;
-  text-decoration: none; /* Add underline on hover */
+  border-bottom-color: #E83F48 !important;
+
 }
 
 
+
+/* Ensure default styles for subtitle and title */
+.prev-next-subtitle,
 .prev-next-title {
-  color: #E83F48 !important; /* Red color */
+  color: black !important;
   text-decoration: none !important; /* Remove underline */
-  font-weight: bold; /* Make the text bold */
+  font-weight: normal !important;
+
 }
 
-/* Hover state for the prev-next-title */
-.prev-next-title:hover {
-  text-decoration: underline !important; /* Add underline on hover if needed */
+
+/* Apply hover effect to the parent anchor */
+.right-next:hover .prev-next-subtitle,
+.right-next:hover .prev-next-title {
+  color: #E83F48 !important;
+  border-bottom: none !important; /* Hover color */
+   /* Underline on hover */
+  font-weight: bold !important;
 }
+
+
+
 
 
 /* Custom CSS to change the style of the reference internal nav-link */
@@ -307,7 +331,7 @@ a.reference.internal.nav-link {
 /* Hover state for the reference internal nav-link */
 a.reference.internal.nav-link:hover {
   text-decoration: underline !important;
-  font-weight: bold; 
+  font-weight: bold !important; 
    /* Add underline on hover if needed */
 }
 
@@ -367,7 +391,7 @@ li.toctree-l1.current.active > a, li.toctree-l1.current > a {
   color: #E83F48 !important;
   border-left: none !important; /* Ensure no left border for the current link */
   border-bottom: none !important; /* Ensure no bottom border for the current link */
-  text-decoration: underline !important; /* Remove underline */
+  text-decoration: none !important; /* Remove underline */
   box-shadow: none !important; /* Remove any box shadow */
 }
 
@@ -394,6 +418,7 @@ li.toctree-l1.current.active > a, li.toctree-l1.current > a {
 /* Ensure links in the sidebar are underlined on hover */
 .bd-sidebar-primary a:hover {
   color: #E83F48 !important;
+  border-bottom-color: #E83F48 !important;
 }
 
 /*.bd-sidebar-primary,.bd-sidebar-secondary { 
@@ -409,7 +434,8 @@ li.toctree-l1.current.active > a, li.toctree-l1.current > a {
   width: 100%;
   height: auto;            /* Allow the height to adjust based on content */
   padding: 0;              /* Remove default padding */
-  margin: 0;               /* Remove default margin */
+  margin: 0;
+  border-bottom-color: #E83F48               /* Remove default margin */
 }
 
 /* Center and style .navbar-icon-links */
@@ -421,7 +447,8 @@ li.toctree-l1.current.active > a, li.toctree-l1.current > a {
   padding: 0;              /* Remove default padding */
   margin: 0;               /* Remove default margin */
   list-style-type: none;   /* Remove list style */
-  flex-wrap: nowrap;       /* Prevent wrapping to the next line */
+  flex-wrap: nowrap;  
+  border-bottom-color: #E83F48;     /* Prevent wrapping to the next line */
 }
 
 /* Ensure each icon is evenly spaced */
@@ -429,7 +456,9 @@ li.toctree-l1.current.active > a, li.toctree-l1.current > a {
   display: flex;           /* Ensure each item is flex */
   align-items: center;     /* Center items vertically */
   justify-content: center; /* Center items horizontally */
-  margin: 0 10px;          /* Adjust the spacing as needed */
+  margin: 0 10px;  
+  border-bottom-color: #E83F48;     /* Prevent wrapping to the next line */
+  /* Adjust the spacing as needed */
 }
 
 /* Ensure the icons are properly sized and styled */
@@ -438,7 +467,9 @@ li.toctree-l1.current.active > a, li.toctree-l1.current > a {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  font-size: 1.5em;        /* Adjust the size of the icons */     /* Set the color to match the text color */
+  font-size: 1.5em;
+  border-bottom-color: #E83F48;     /* Prevent wrapping to the next line */
+  /* Adjust the size of the icons */     /* Set the color to match the text color */
 }
 
 
@@ -482,7 +513,6 @@ li.toctree-l1.current.active > a, li.toctree-l1.current > a {
 }
 
 
-
  /* General hyperlink styles */
  a {
   color: #E83F48; /* Red color */
@@ -491,16 +521,15 @@ li.toctree-l1.current.active > a, li.toctree-l1.current > a {
 
 
 
-
-
 .reference.external {
-  color:black; /* Tomato color */
+  color: #E83F48; /* Tomato color */
 }
 
 
 /* Change the color of the hover effect */
 a.reference.external:hover {
-  color:#E83F48 ; /* SteelBlue color */
+  color:#E83F48 ;
+  border-bottom-color: #E83F48 ; /* SteelBlue color */
 }
 
 /* Change the color of the visited link */
@@ -510,9 +539,52 @@ a.reference.external:visited {
 
 
 
-/* Change the color of the underline for active icons in the sidebar */
-.navbar-icon-links > li > a.active, .navbar-icon-links > li > a:focus, .navbar-icon-links > li > a:hover {
-  border-bottom: 2px solid #E83F48; /* Change the underline color to red */
+/* Ensure no underline or border for the link and its child elements */
+.navbar-icon-links .nav-item .nav-link,
+.navbar-icon-links .nav-item .nav-link span,
+.navbar-icon-links .nav-item .nav-link svg {
+  border-bottom: none !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+/* Ensure no pseudo-element content for the link and its child elements */
+.navbar-icon-links .nav-item .nav-link::before,
+.navbar-icon-links .nav-item .nav-link::after,
+.navbar-icon-links .nav-item .nav-link span::before,
+.navbar-icon-links .nav-item .nav-link span::after,
+.navbar-icon-links .nav-item .nav-link svg::before,
+.navbar-icon-links .nav-item .nav-link svg::after {
+  content: none !important;
+}
+
+/* Add red underline for active, focus, and hover states */
+.navbar-icon-links .nav-item .nav-link.active,
+.navbar-icon-links .nav-item .nav-link:focus,
+.navbar-icon-links .nav-item .nav-link:hover {
+  border-bottom: 3.2px solid #E83F48 !important; /* Add red underline */
+  text-decoration: none !important;
+  box-shadow: none !important;
 }
 
 
+
+
+/* Hide the header link initially */
+.headerlink {
+  display: none;
+}
+
+/* Show the header link when hovering over the header */
+h1:hover .headerlink,
+h2:hover .headerlink,
+h3:hover .headerlink,
+h4:hover .headerlink,
+h5:hover .headerlink,
+h6:hover .headerlink {
+  display: inline;
+  color: #E83F48; /* Custom color */
+  font-size: 0.93em; /* Custom size */
+  text-decoration: none; /* Remove underline */
+  margin-left: 5px; /* Add some spacing */
+}

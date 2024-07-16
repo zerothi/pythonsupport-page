@@ -19,6 +19,7 @@ We are here to help you with Python installation problems related
 to courses at DTU.
 
 
+
 .. card:: Need to install Python?
    :class-card: sd-color-primary
 
@@ -37,8 +38,6 @@ to courses at DTU.
 
       
          Press here for essentials!
-
-
 
 Our goal is to ensure that students can get a Python
 environment up and running according to the needs of DTU courses.  
