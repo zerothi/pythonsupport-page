@@ -2,7 +2,7 @@
 
 .. _faq:
 
-FAQ and common problems 
+FAQ/common problems 
 =======================
 
 Please search on this page if you can not find an exact match.
@@ -19,3 +19,8 @@ at :mail:`pythonsupport@dtu.dk` or on our `Discord channel <ps-discord-invite_>`
 .. include:: faq-macos.rst.include
 .. include:: faq-linux.rst.include
 
+.. toctree::
+   :maxdepth: 1
+
+   FAQ <FAQS.rst>
+   Common Errors <commonerrors.rst>
