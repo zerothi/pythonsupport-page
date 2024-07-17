@@ -19,25 +19,73 @@ We are here to help you with Python installation problems related
 to courses at DTU.
 
 
+.. raw:: html
 
-.. card:: Need to install Python?
-   :class-card: sd-color-primary
+    <style>
+        .image-container {
+            position: relative;
+            text-align: center;
+            color: white;
+            margin-bottom: 20px; /* Create space below the image */
+        }
 
-   .. raw:: html
-      :file: html/userLevel_selector.html
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px; /* Rounded corners for the image */
+        }
 
-.. card:: :fas:`book-open`  Essentials for 1 :sup:`st` year students 
-   :class-card: sd-color-primary
+        .top-text, .bottom-text {
+            position: absolute;
+            font-size: 27px;
+            color: white;
+        }
 
-   Here you can find important information to get started once python is installed
+        .top-text-bold, .bottom-text-bold {
+            font-size: 36px;
+            font-weight: bold;
+        }
 
-   .. button-link:: essentials_first/index.html
-      :color: primary
-      :expand:
-      :click-parent:
+        .top-text {
+            top: 15%;
+            left: 7.5%;
+        }
 
-      
-         Press here for essentials!
+        .top-link {
+            top: 32%;
+            left: 52%;
+        }
+
+        .bottom-text {
+            top: 65%;
+            left: 7.5%;
+        }
+
+        .bottom-link {
+            top: 82%;
+            left: 52%;
+        }
+
+        .special-hover a:hover {
+            color: yellow; /* Change this to your desired hover color */
+        }
+    </style>
+
+    <div class="image-container">
+        <img src="_static/try15.png" alt="Background Image">
+        <div class="top-text top-text-bold">
+            Need to install Python?
+        </div>
+        <div class="top-text top-link">
+            <a href="quickstart/index.html" style="color: white; text-decoration: none;">Click here to install Python</a>
+        </div>
+        <div class="bottom-text bottom-text-bold">
+            Essentials for 1<sup>st</sup> year students
+        </div>
+        <div class="bottom-text bottom-link special-hover">
+            <a href="essentials_first/index.html" style="color: white; text-decoration: none;">Press here for essentials!</a>
+        </div>
+    </div>
 
 Our goal is to ensure that students can get a Python
 environment up and running according to the needs of DTU courses.  
@@ -90,6 +138,3 @@ Office hours
    courses/index.rst
    menu/index.rst
    faqs/index.rst
-   
-
-

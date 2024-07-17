@@ -588,3 +588,16 @@ h6:hover .headerlink {
   text-decoration: none; /* Remove underline */
   margin-left: 5px; /* Add some spacing */
 }
+
+
+
+/* custom.css */
+.rounded-corners {
+  border-radius: 6px; /* Adjust the value as needed */
+  margin-top: 20px; /* Adjust the value to match the desired spacing */
+  margin-bottom: 20px; /* Adjust the value to match the desired spacing */
+}
+
+.special-hover a:hover {
+  color: #1fd082 !important; /* Desired hover color for the last link */
+}
