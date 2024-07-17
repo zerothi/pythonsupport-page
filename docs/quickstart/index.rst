@@ -1,19 +1,13 @@
 
 .. _quickstart:
 
-**Install Python**
+Install Python
 ===========
 
 In the autumn semester of 2023, we will be following the guidelines in the Mathematics 1
 and Computer Programming courses. These guidelines can be found 
 `here <https://02002.compute.dtu.dk/installation/index.html>`__.
 
-
-.. container:: click-parent full-width-image
-
-   .. image:: /_static/Green.png
-      :alt: Image description
-      :align: center
 
 .. comments to be back-filled
 
