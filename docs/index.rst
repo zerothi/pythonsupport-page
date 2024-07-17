@@ -49,6 +49,7 @@ to courses at DTU.
         .top-text {
             top: 15%;
             left: 7.5%;
+            
         }
 
         .top-link {

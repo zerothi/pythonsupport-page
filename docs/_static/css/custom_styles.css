@@ -599,5 +599,6 @@ h6:hover .headerlink {
 }
 
 .special-hover a:hover {
-  color: #1fd082 !important; /* Desired hover color for the last link */
+  color: #1fd082 !important;
+  border-bottom: 3.9px solid !important; /* Desired hover color for the last link */
 }
