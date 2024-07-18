@@ -617,3 +617,66 @@ h6:hover .headerlink {
 }
 
 
+
+
+
+
+input#search-input:hover,
+input#search-input:active,
+input#search-input:focus {
+    color: #E83F48; /* Specific text color */
+    border: 1px solid #E83F48; /* Border color */
+    box-shadow: 0 0 10px #E83F48; /* Box-shadow color */
+    transition: all 0.3s ease; /* Smooth transition */
+    text-decoration: none; /* Remove underline */
+    background-color: transparent; /* Keep background color transparent */
+    outline: none; /* Remove default outline */
+}
+/* Change hover effect for theme switcher button */
+.theme-switch a:hover {
+
+  color:#E83F48 !important; /* Example text color */
+  box-shadow: none; /* Remove underline */
+
+}
+/* custom_styles.css */
+
+/* Change hover, active, and focus effects for search button */
+/* Update the class name if it's different */
+button.search-button-class:hover,
+button.search-button-class:active,
+button.search-button-class:focus {
+    color: #E83F48; /* Specific text color */
+    box-shadow: none; /* Remove underline */
+
+}
+
+/* Change hover, active, and focus effects for theme switch button */
+button.btn.btn-sm.navbar-btn.theme-switch-button:hover,
+button.btn.btn-sm.navbar-btn.theme-switch-button:active,
+button.btn.btn-sm.navbar-btn.theme-switch-button:focus {
+    color: #E83F48; /* Specific text color */
+    box-shadow: none; /* Remove underline */
+
+}
+
+/* Specifically target each mode button within the theme switch button */
+button.btn.btn-sm.navbar-btn.theme-switch-button .theme-switch[data-mode="light"]:hover,
+button.btn.btn-sm.navbar-btn.theme-switch-button .theme-switch[data-mode="light"]:active,
+button.btn.btn-sm.navbar-btn.theme-switch-button .theme-switch[data-mode="light"]:focus,
+button.btn.btn-sm.navbar-btn.theme-switch-button .theme-switch[data-mode="dark"]:hover,
+button.btn.btn-sm.navbar-btn.theme-switch-button .theme-switch[data-mode="dark"]:active,
+button.btn.btn-sm.navbar-btn.theme-switch-button .theme-switch[data-mode="dark"]:focus,
+button.btn.btn-sm.navbar-btn.theme-switch-button .theme-switch[data-mode="auto"]:hover,
+button.btn.btn-sm.navbar-btn.theme-switch-button .theme-switch[data-mode="auto"]:active,
+button.btn.btn-sm.navbar-btn.theme-switch-button .theme-switch[data-mode="auto"]:focus {
+    color: #E83F48; /* Specific text color for inner buttons */
+    box-shadow: none; /* Remove underline */
+
+
+}
+
+/* Ensure no underlines for links within the button */
+button.btn.btn-sm.navbar-btn.theme-switch-button .theme-switch.nav-link {
+    box-shadow: none; /* Remove underline */
+}

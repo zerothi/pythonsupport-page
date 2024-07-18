@@ -530,9 +530,12 @@ def setup(app):
 html_theme_options = {
 
     "navbar_center": ["logo_button.html","navbar-nav"],
+    "navbar_end": ["theme-switcher","search-field"],
     "lefttsidebar": "false",
     "icon_links": _icon_links
 }
+
+
 
 
 
