@@ -19,6 +19,7 @@ We are here to help you with Python installation problems related
 to courses at DTU.
 
 
+
 .. raw:: html
 
     <style>
@@ -87,6 +88,9 @@ to courses at DTU.
             <a href="essentials_first/index.html" style="color: white; text-decoration: none;">Press here for essentials!</a>
         </div>
     </div>
+
+.. raw:: html
+      :file: html/popup.html
 
 Our goal is to ensure that students can get a Python
 environment up and running according to the needs of DTU courses.  
