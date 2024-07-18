@@ -57,6 +57,10 @@ to courses at DTU.
             left: 52%;
         }
 
+        .first-link-hover a:hover {
+            color: red; /* Change this to your desired hover color */
+        }
+
         .bottom-text {
             top: 65%;
             left: 7.5%;
@@ -68,7 +72,7 @@ to courses at DTU.
         }
 
         .special-hover a:hover {
-            color: yellow; /* Change this to your desired hover color */
+            color: green; 
         }
     </style>
 
@@ -77,7 +81,7 @@ to courses at DTU.
         <div class="top-text top-text-bold">
             Need to install Python?
         </div>
-        <div class="top-text top-link">
+        <div class="top-text top-link first-link-hover">
             <a href="quickstart/index.html" style="color: white; text-decoration: none;">Click here to install Python</a>
         </div>
         <div class="bottom-text bottom-text-bold">

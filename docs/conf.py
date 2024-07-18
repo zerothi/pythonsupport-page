@@ -283,7 +283,7 @@ if False:
         "json_url": _course_json_url,
         "version_match": "courses",
     }
-    #html_theme_options["switcher"]["json_url"] = "file:///home/nicpa/dcc/python-support/ps-webpage/build/html/_static/course_switcher.json"
+    html_theme_options["switcher"]["json_url"] = "file:///home/nicpa/dcc/python-support/ps-webpage/build/html/_static/course_switcher.json"
     html_theme_options["navbar_center"].append("version-switcher")
 
 html_js_files = [
@@ -531,9 +531,26 @@ html_theme_options = {
 
     "navbar_center": ["logo_button.html","navbar-nav"],
     "lefttsidebar": "false",
-    "icon_links": _icon_links,
+    "icon_links": _icon_links
 }
 
+
+
+# html_theme_options = {
+#     "navbar_center": ["logo_button.html", "search-field.html", "theme-switch-button.html", "navbar-nav"],
+#     "leftsidebar": "false",
+#     "icon_links": _icon_links
+# }
+
+# "use_repository_button": True,
+#     "repository_provider": "github",
+#     "repository_url": _pythonsupport["repository"],
+#     "use_edit_page_button": True,
+#     "use_fullscreen_button": True,
+#     "header_links_before_dropdown": 4,
+#     "navbar_align": "content",
+#     "navbar_center": ["navbar-nav"],
+#     "icon_links": _icon_links,
 templates_path = ['_templates']
 
  

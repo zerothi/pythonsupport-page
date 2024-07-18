@@ -225,17 +225,8 @@
 
 
   
-  /* Change the color of the Next and Previous navigation links to red and remove underline */
-  .sphinxsidebar a, .sphinxsidebar a:visited, .sphinxsidebar a:active {
-    color: #E83F48; /* Red color */
-    text-decoration: none; /* Remove underline */
-  }
 
-  /* Add underline on hover */
-  .sphinxsidebar a:hover {
-    border-bottom-color: #E83F48 !important
-    ;
-  }
+
 
   /* Ensure the bottom navigation links are also styled */
   .wy-nav-content a[href] {
@@ -274,14 +265,6 @@ a:hover {
 
 }
 
-/* Add underline on hover */
-.sphinxsidebar a:hover {
-  color: #E83F48 !important;
-  text-decoration: none;
-  border-bottom-color: #E83F48 !important;
-
-  
-}
 
 /* Ensure the bottom navigation links are also styled */
 .wy-nav-content a[href] {
@@ -300,21 +283,16 @@ a:hover {
 /* Ensure default styles for subtitle and title */
 .prev-next-subtitle,
 .prev-next-title {
-  color: black !important;
+  color: currentColor !important;
   text-decoration: none !important; /* Remove underline */
   font-weight: normal !important;
 
 }
 
 
+
+
 /* Apply hover effect to the parent anchor */
-.right-next:hover .prev-next-subtitle,
-.right-next:hover .prev-next-title {
-  color: #E83F48 !important;
-  border-bottom: none !important; /* Hover color */
-   /* Underline on hover */
-  font-weight: bold !important;
-}
 
 
 
@@ -598,7 +576,44 @@ h6:hover .headerlink {
   margin-bottom: 20px; /* Adjust the value to match the desired spacing */
 }
 
+
+.first-link-hover a:hover {
+  
+  border-bottom: 3.9px solid !important;/* Desired hover color for the first link */
+}
+
 .special-hover a:hover {
   color: #1fd082 !important;
   border-bottom: 3.9px solid !important; /* Desired hover color for the last link */
 }
+
+
+.visible.nav.section-nav.flex-column li.toc-h2 a:hover {
+  color: none !important;
+  border-bottom: none !important ; 
+  text-decoration: none !important;
+  
+  /* Change this to your desired hover color */
+}
+
+
+.visible.nav.section-nav.flex-column li.toc-h2 a:hover {
+  color:#E83F48 !important;
+  font-weight: bold !important;
+   /* Change this to your desired hover color */
+}
+
+
+.visible.nav.section-nav.flex-column li.toc-h2 a.active {
+  color:#E83F48 !important;
+  font-weight: bold !important;
+  content: none !important; 
+  box-shadow:none !important;/* Change this to your desired hover color */
+}
+
+.visible.nav.section-nav.flex-column li.toc-h2 a {
+  color: currentColor !important;
+  font-weight: normal!important; /* Change this to your desired hover color */
+}
+
+
