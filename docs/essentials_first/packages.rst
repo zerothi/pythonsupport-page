@@ -85,7 +85,7 @@ Packages can be installed in a very simple manner by using ``conda install``:
 
          conda install "numpy==1.24.*" "scipy<1.10" "matplotlib"
 
-The above will install numpy the latest 1.24 version, a scipy version lower than 1.10 and the latest version of matplotlib.
+The above will install version 1.24 of Numpy, a Scipy version lower than 1.10 and the latest version of matplotlib.
 
 
 

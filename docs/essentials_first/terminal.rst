@@ -60,7 +60,7 @@ Opening Python in a Terminal
    .. tab-item:: {{ win_powershell }} 
       :sync: powershell
       
-      To lunch Python using the Terminal, you can use ``python``. 
+      To launch Python using the Terminal, you can use ``python``. 
 
       This should look *something* like this in your **Terminal**:
       
@@ -72,7 +72,7 @@ Opening Python in a Terminal
    .. tab-item:: {{ win_batch }}
       :sync: batch
       
-      To lunch Python using the Terminal, you can use ``python``.
+      To launch Python using the Terminal, you can use ``python``.
 
       This should look *something* like this in your **Terminal**:
       
@@ -84,7 +84,7 @@ Opening Python in a Terminal
    .. tab-item:: {{ mac_bash }}
       :sync: bash
       
-      To lunch Python using the Terminal, you can use ``python3``.
+      To launch Python using the Terminal, you can use ``python3``.
 
       This should look *something* like this in your **Terminal**:
       
@@ -148,9 +148,9 @@ Running a Python script using the Terminal
    .. tab-item:: {{ win_powershell }} 
       :sync: powershell
       
-      To run a Python script using the terminal, you can use ``python`` + ``space`` + ``absolut path of your script``. 
+      To run a Python script using the terminal, you can use ``python`` + ``space`` + ``absolute path of your script``. 
 
-      For example, if you wanted to run a script that has the absolut path ``C:\Users\python\test\helloWorld.py`` containing only the line ``print("Hello World")``, this should look *something* like this in your **Terminal**:
+      For example, if you wanted to run a script that has the absolute path ``C:\Users\python\test\helloWorld.py`` containing only the line ``print("Hello World")``, this should look *something* like this in your **Terminal**:
       
       .. image:: gifs/PS/runPython.gif
          :width: 100%
@@ -160,9 +160,9 @@ Running a Python script using the Terminal
    .. tab-item:: {{ win_batch }}
       :sync: batch
       
-      To run a Python script using the terminal, you can use ``python`` + ``space`` + ``absolut path of your script``. . 
+      To run a Python script using the terminal, you can use ``python`` + ``space`` + ``absolute path of your script``. . 
 
-      For example, if you wanted to run a script that has the absolut path ``C:\Users\python\test\helloWorld.py`` containing only the line ``print("Hello World")``, this should look *something* like this in your **Terminal**:
+      For example, if you wanted to run a script that has the absolute path ``C:\Users\python\test\helloWorld.py`` containing only the line ``print("Hello World")``, this should look *something* like this in your **Terminal**:
       
       .. image:: gifs/CMD/runPython.gif
          :width: 100%
@@ -172,9 +172,9 @@ Running a Python script using the Terminal
    .. tab-item:: {{ mac_bash }}
       :sync: MacOs/Unix
       
-      To run a Python script using the terminal, you can use ``python`` + ``space`` + ``absolut path of your script``.
+      To run a Python script using the terminal, you can use ``python`` + ``space`` + ``absolute path of your script``.
 
-      For example, if you wanted to run a script that has the absolut path ``/Users/yourname/Desktop/helloWorld.py`` containing only the line ``print("Hello World")``, this should look *something* like this in your **Terminal**:
+      For example, if you wanted to run a script that has the absolute path ``/Users/yourname/Desktop/helloWorld.py`` containing only the line ``print("Hello World")``, this should look *something* like this in your **Terminal**:
       
       .. image:: gifs/Unix/runPython.gif
          :width: 100%

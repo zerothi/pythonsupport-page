@@ -3,10 +3,11 @@
 
 DTU Courses
 ===========
+Here you will find course specific guidelines on how to install Python. 
 
 .. note::
 
-   Courses may have their own guides on how to install, we encourage
+   Courses may have their own guides on how to install. We encourage
    students to primarily refer to these resources.
    The documentation here is considered complimentary to the course
    material, unless otherwise stated by the teacher.
@@ -24,11 +25,11 @@ DTU Courses
    :caption: Course guides
    :maxdepth: 1
 
-   01001_01003/01001_01003.rst
-   01002_01004/01002_01004.rst
-   02002_02003/02002_02003.rst
-   02461/02461.rst
-   10060_10063_10065/10060_10063_10065.rst
+   Mathematics 1a <01001_01003/01001_01003.rst>
+   Mathematics 1b <01002_01004/01002_01004.rst>
+   Intro to Programming <02002_02003/02002_02003.rst>
+   Intelligent systems <02461/02461.rst>
+   Physics <10060_10063_10065/10060_10063_10065.rst>
 
 
 Template guide for new course

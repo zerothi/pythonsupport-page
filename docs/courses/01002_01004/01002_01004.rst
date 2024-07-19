@@ -1,11 +1,12 @@
 .. _course-01002:
 .. _course-01004:
 
-:course-base:`01002` / :course-base:`01004`
-================================================
+**Mathematics 1b** (:course-base:`01002` / :course-base:`01004`)
+=================================================================
 
-Installation instructions for the :course-base:`01002` and :course-base:`01004` courses.
-The course homepage can be found :course-home:`here <01002>`.
+| These are the installation instructions for **Mathematics 1b**. Both the current and previous versions can be found below.
+| Note that course :course-base:`01002` is the Danish version, while  :course-base:`01004` is the English version of the course.
+| The course homepage can be found :course-home:`here <01002>`.
 
 .. toctree::
    :maxdepth: 1
