@@ -1,8 +1,8 @@
 
 .. _course-index:
 
-DTU Courses
-===========
+DTU Course Guidelines
+=====================
 Here you will find course specific guidelines on how to install Python. 
 
 .. note::

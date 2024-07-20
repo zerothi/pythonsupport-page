@@ -3,10 +3,11 @@
 **Intelligent systems** (:course-base:`02461`)
 ==============================================
 
-| Here you will find installation instructions for Introduction to Intelligent Systems. Both the current and previous versions can be seen below.
-| The course database site is :course-base:`here <02461>`:
+| Here you will find installation instructions for Introduction to Intelligent Systems.
+| The course database site is :course-base:`here <02461>`
 
-.. toctree::
-   :maxdepth: 1
 
-   E2023.rst
+
+**Previous Instructions:**
+
+* `Autumn 2023 (E23) <https://02002.compute.dtu.dk/installation/index.html>`_
