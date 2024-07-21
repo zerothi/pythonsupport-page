@@ -85,7 +85,7 @@ to courses at DTU.
             <a href="quickstart/index.html" style="color: white; text-decoration: none;">Click here to install Python</a>
         </div>
         <div class="bottom-text bottom-text-bold">
-            Essentials for 1<sup>st</sup> year students
+            Learn the Python essentials
         </div>
         <div class="bottom-text bottom-link special-hover">
             <a href="essentials_first/index.html" style="color: white; text-decoration: none;">Press here for essentials!</a>

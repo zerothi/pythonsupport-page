@@ -621,6 +621,8 @@ h6:hover .headerlink {
 
 
 
+
+
 /* input#search-input:hover,
 input#search-input:active,
 input#search-input:focus {
@@ -675,3 +677,5 @@ button.btn.btn-sm.navbar-btn.theme-switch-button .theme-switch[data-mode="auto"]
 button.btn.btn-sm.navbar-btn.theme-switch-button .theme-switch.nav-link {
     box-shadow: none; /* Remove underline */
 }
+
+
