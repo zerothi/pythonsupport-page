@@ -534,7 +534,9 @@ html_theme_options = {
     # "navbar_end": ["theme-switcher","search-field"],
     "lefttsidebar": "false",
     "icon_links": _icon_links,
+    "header_links_before_dropdown": 10,
 }
+
 
 
 
