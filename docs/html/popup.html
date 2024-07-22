@@ -1,16 +1,77 @@
 <div class="popup" id="popup-pythonsupport">
-    <div class="overlay"></div>
-    <div class="content">
-        <div class="close-btn" onclick="togglePopup()">&times;</div>
-        <h1>Test popup</h1>
-        <div class="buttons">
-            <a class="install-python" href="quickstart/index.html" onclick="togglePopup()">Button One</a>
-            <a class="essentials" href="essentials_first/index.html" onclick="togglePopup()">Button Two</a>
-        </div>
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="close-btn" onclick="togglePopup()">&times;</div>
+
+    <div id="Py_NeedToInstall" class="">
+      <h1>Do you need to install Python?</h1>
+      <div class="buttons">
+        <a id="yes" onclick="startQuestionair()">Yes</a>
+        <a id="no" onclick="togglePopup()">No</a>
+      </div>
     </div>
+
+    <div id="PyS_userLevelSelector" class="hidden">
+      
+      <h1>What is your experience level?</h1>
+      <div class="PyS_d-1" onclick="PyS_redirectUser('package-managed.html');">
+        First Year
+      </div>
+      <div class="PyS_d-2" onclick="PyS_redirectUser('fully-manual.html');">
+        Other
+      </div>
+    </div>
+
+    <div id="PyS_osSelector" class="hidden">
+      <h1>What operating system are you using?</h1>
+      <div class="PyS_d-1" style="width: 20%" onclick="PyS_osSelector('windows');">
+        <i class="fa-brands fa-windows fa-2x"></i>
+      </div>
+      <div class="PyS_d-1" style="width: 20%" onclick="PyS_osSelector('macos');">
+        <i class="fa-brands fa-apple fa-2x"></i>
+      </div>
+      <div class="PyS_d-1" style="width: 20%" onclick="PyS_osSelector('linux');">
+        <i class="fa-brands fa-linux fa-2x"></i>
+      </div>
+    </div>
+
+ </div>
 </div>
-<script>
-    function togglePopup() {
-        document.getElementById("popup-pythonsupport").classList.toggle("inactive");
+
+<script language="Javascript" type="text/javascript">
+  function togglePopup() {
+    document.getElementById("popup-pythonsupport").classList.toggle("inactive");
+  }
+
+  function startQuestionair() {
+    document.getElementById("Py_NeedToInstall").classList.add("hidden");
+    document.getElementById("PyS_userLevelSelector").classList.remove("hidden");
+  }
+
+  let userLevel;
+
+  function PyS_isOperatingSytem() {
+    // This could be used to pre-check the OS question
+    if (navigator.appVersion.indexOf("Android") != -1) return false;
+    if (navigator.appVersion.indexOf("iPhone") != -1) return false;
+    if (navigator.appVersion.indexOf("Win") != -1) return "windows";
+    if (navigator.appVersion.indexOf("Mac") != -1) return "macos";
+    if (navigator.appVersion.indexOf("Linux") != -1) return "linux";
+    return false;
+  }
+
+  function PyS_osSelector(os) {
+    window.location.href = "menu/" + os + "/" + userLevel;
+  }
+
+  function PyS_redirectUser(UserLevel) {
+    let os = PyS_isOperatingSytem();
+    userLevel = UserLevel;
+    if (!os) {
+      document.getElementById("PyS_userLevelSelector").classList.add("hidden");
+      document.getElementById("PyS_osSelector").classList.remove("hidden");
+    } else {
+      window.location.href = "/menu/" + os + "/" + userLevel;
     }
+  }
 </script>
