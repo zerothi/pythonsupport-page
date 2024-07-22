@@ -89,6 +89,8 @@ DTU Python Installation Support
         </div>
     </div>
 
+.. raw:: html
+      :file: html/popup.html
 
 --------
 Reach us
