@@ -3,7 +3,7 @@ F2024
 
 This guideline is for students attending course :course-base:`10060` in the F2024 year.
 
-Please install these packages:
+Please install the uncertainties package by pasting the following into your terminal:
 
 .. code-block:: bash
 

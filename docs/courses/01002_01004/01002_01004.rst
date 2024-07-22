@@ -4,11 +4,11 @@
 **Mathematics 1b** (:course-base:`01002` / :course-base:`01004`)
 =================================================================
 
-| These are the installation instructions for **Mathematics 1b**. Both the current and previous versions can be found below.
+| These are the installation instructions for **Mathematics 1b**.
 | Note that course :course-base:`01002` is the Danish version, while  :course-base:`01004` is the English version of the course.
-| The course homepage can be found :course-home:`here <01002>`.
+| Click :course-home:`here <01002>` for the course homepage.
 
-.. toctree::
-   :maxdepth: 1
+**Previous Instructions:**
 
-   F2024.rst
+* `spring 2024 (F24) <https://02002.compute.dtu.dk/installation/mat1.html>`_
+

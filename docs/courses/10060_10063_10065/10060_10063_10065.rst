@@ -5,15 +5,19 @@
 **Physics** (:course-base:`10060` / :course-base:`10063` / :course-base:`10065`)
 ============================================================================
 
-Here you will find installation instructions for Physics. Both the current and previous insturctions can be seen below. 
-
-- :course-base:`10060a <10060>`
-- :course-base:`10060b <10060>`
-- :course-base:`10060c <10060>`
-- :course-base:`10063`
-- :course-base:`10065`
+Here you will find installation instructions for Physics. Both the current and previous instructions can be seen below. 
 
 .. toctree::
+   :caption: Previous Instructions:
    :maxdepth: 1
 
    F2024.rst
+
+
+
+
+**The course databases can be found below:**
+
+- :course-base:`Danish version (10060) <10060>`
+- :course-base:`Physics for general engineering (10063) <10063>`
+- :course-base:`Online version of physics (10065) <10065>`

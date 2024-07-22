@@ -4,14 +4,22 @@
 **Mathematics 1a** (:course-base:`01001` / :course-base:`01003`)
 =================================================================
 
-| These are the installation instructions for **Mathematics 1a**. Both the current and previous versions can be found below.
+| These are the installation instructions for **Mathematics 1a**.
 | Note that course :course-base:`01001` is the Danish version, while  :course-base:`01003` is the English version of the course.
-| The course homepage can be found :course-home:`here <01001>`.
+| Click :course-home:`here <01001>` for the course homepage.
 
-.. toctree::
-   :maxdepth: 1
 
-   E2023.rst
+**Previous Instructions:**
+
+* `Autumn 2023 (E23) <https://02002.compute.dtu.dk/installation/mat1.html>`_
+
+
+
+
+
+
+
+
 
 
 
