@@ -6,7 +6,7 @@
 
 | These are the installation instructions for Introduction to Python programming
 | Note that course :course-base:`02002` is the Danish version, while  :course-base:`02003` is the English version of the course.
-| The course homepage can be found :course-home:`here <02002>`.
+| Click :course-home:`here <02002>` for the course homepage.
 
 **Previous Instructions:**
 

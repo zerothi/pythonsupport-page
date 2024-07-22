@@ -16,7 +16,7 @@ Here you will find installation instructions for Physics. Both the current and p
 
 
 
-**The course databases can be seen below:**
+**The course databases can be found below:**
 
 - :course-base:`Danish version (10060) <10060>`
 - :course-base:`Physics for general engineering (10063) <10063>`

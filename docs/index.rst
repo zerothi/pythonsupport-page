@@ -14,9 +14,6 @@ DTU Python Installation Support
 ===============================
 
 
-Welcome to the DTU Python Installation student support unit!  
-We are here to help you with Python installation problems related
-to courses at DTU.
 
 
 .. raw:: html
@@ -92,9 +89,6 @@ to courses at DTU.
         </div>
     </div>
 
-Our goal is to ensure that students can get a Python
-environment up and running according to the needs of DTU courses.  
-Help can be requested through various channels:
 
 --------
 Reach us
@@ -143,3 +137,4 @@ Office hours
    courses/index.rst
    menu/index.rst
    faqs/index.rst
+   Knowledgebase/index.rst

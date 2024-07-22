@@ -6,7 +6,7 @@
 
 | These are the installation instructions for **Mathematics 1a**.
 | Note that course :course-base:`01001` is the Danish version, while  :course-base:`01003` is the English version of the course.
-| The course homepage can be found :course-home:`here <01001>`.
+| Click :course-home:`here <01001>` for the course homepage.
 
 
 **Previous Instructions:**
