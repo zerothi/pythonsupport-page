@@ -679,3 +679,22 @@ button.btn.btn-sm.navbar-btn.theme-switch-button .theme-switch.nav-link {
 }
 
 
+
+/* Change text color on hover */
+label.sd-tab-label:hover {
+  color:#E83F48 !important;
+  border-color: #E83F48 !important;
+   /* Change to your desired hover color */
+}
+
+/* Change background and text color when selected */
+.sd-tab-set input:checked + label.sd-tab-label {
+  color: #E83F48 !important;
+  border-bottom-color: #E83F48 !important; /* Change to your desired text color when selected */
+}
+
+/* Optional: Change border color on focus */
+label.sd-tab-label:focus {
+  border-bottom-color: #E83F48 !important; /* Change to your desired focus border color */
+}
+
