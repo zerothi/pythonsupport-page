@@ -292,6 +292,7 @@ html_js_files = [
 
 html_css_files = [
     ("css/questionairStyles.css", {'priority': 999}),
+    ("css/popupStyles.css", {'priority': 999}),
     ("css/custom_styles.css", {'priority': 998}),
     "css/colors.css"
 ]
