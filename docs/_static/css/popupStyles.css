@@ -17,8 +17,9 @@
     padding: 20px;
     z-index: 2;
     border-radius: 5px;
-    width: 50%;
-    max-width: 500px;
+    width: auto;
+    max-width: 800px;
+    min-height: 200px;
     box-sizing: border-box;
     text-align: center;
 }
@@ -37,6 +38,14 @@
     border-radius: 50%;
 }
 
+.popup .close-btn:hover{
+    color: rgba(0,0,0,0.7);
+}
+
+.popup .content h1 {
+    margin-top: 40px; /* Adjust the value based on the size of your close button */
+}
+
 .popup.inactive .overlay{
     display: none;
 }
@@ -49,7 +58,7 @@
 
 .popup .content .buttons{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
 }
 
@@ -64,10 +73,18 @@
 
 }
 
-.popup .content .buttons .install-python{
+.popup .content .buttons #yes{
     background-color: var(--dtu-bright-green);
 }
+.popup .content .buttons #yes:hover{
+    background-color: var(--dtu-green);
+    color: var(--dtu-white)!important;
+}
 
-.popup .content .buttons .essentials{
+.popup .content .buttons #no{
     background-color: var(--dtu-red);
+}
+.popup .content .buttons #no:hover{
+    background-color: var(--dtu-red-corporate);
+    color: var(--dtu-white)!important;
 }
