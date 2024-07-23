@@ -507,12 +507,15 @@ li.toctree-l1.current.active > a, li.toctree-l1.current > a {
 /* Change the color of the hover effect */
 a.reference.external:hover {
   color:#E83F48 ;
-  border-bottom-color: #E83F48 ; /* SteelBlue color */
+  border-bottom-color: #E83F48;
+  text-decoration: underline; /* SteelBlue color */
 }
+
+
 
 /* Change the color of the visited link */
 a.reference.external:visited {
-  color:black ; /* SlateBlue color */
+  color:#E83F48 ; /* SlateBlue color */
 }
 
 
@@ -696,5 +699,27 @@ label.sd-tab-label:hover {
 /* Optional: Change border color on focus */
 label.sd-tab-label:focus {
   border-bottom-color: #E83F48 !important; /* Change to your desired focus border color */
+}
+
+
+
+
+
+/* Target only the main section */
+.bd-article a.reference.external:visited {
+  /* Your desired styles for visited external links */
+  color:#E83F48 ;
+}
+
+/* Target only the main section */
+.bd-article a.reference.internal:visited {
+  /* Your desired styles for visited internal links */
+  color:#E83F48 ;
+}
+
+.bd-article a.reference.internal:hover {
+  /* Your desired styles for visited internal links */
+  color:#E83F48 !important ;
+  text-decoration: underline !important;
 }
 
