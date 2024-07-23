@@ -723,3 +723,19 @@ label.sd-tab-label:focus {
   text-decoration: underline !important;
 }
 
+
+/* Custom styles for the back to top button */
+#pst-back-to-top {
+  background-color: #E83F48; /* Blue background */
+  color: #ffffff; /* White text */
+  border-color: #E83F48; /* Darker blue border */
+}
+
+/* Optional: Add hover, focus, and active states */
+#pst-back-to-top:hover,
+#pst-back-to-top:focus,
+#pst-back-to-top:active {
+  background-color: #990000; /* Darker blue background on hover */
+  color: #ffffff; /* White text */
+  border-color: #990000; /* Even darker blue border */
+}

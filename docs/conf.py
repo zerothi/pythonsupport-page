@@ -535,7 +535,10 @@ html_theme_options = {
     "lefttsidebar": "false",
     "icon_links": _icon_links,
     "header_links_before_dropdown": 10,
+     "back_to_top_button": True,
 }
+
+
 
 
 
