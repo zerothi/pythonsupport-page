@@ -1,7 +1,7 @@
 .. _course-02002:
 .. _course-02003:
 
-**Intro to programming** (:course-base:`02002` / :course-base:`02003`)
+**Intro to programming**
 ========================================================================
 
 | These are the installation instructions for Introduction to Python programming

@@ -2,7 +2,7 @@
 .. _course-10063:
 .. _course-10065:
 
-**Physics** (:course-base:`10060` / :course-base:`10063` / :course-base:`10065`)
+**Physics**
 ============================================================================
 
 Here you will find installation instructions for Physics. Both the current and previous instructions can be seen below. 

@@ -1,7 +1,7 @@
 .. _course-01002:
 .. _course-01004:
 
-**Mathematics 1b** (:course-base:`01002` / :course-base:`01004`)
+**Mathematics 1b**
 =================================================================
 
 | These are the installation instructions for **Mathematics 1b**.
