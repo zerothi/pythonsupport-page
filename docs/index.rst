@@ -134,7 +134,7 @@ Office hours
    :maxdepth: 2
    :hidden:
 
-   installPython/index.rst
+   quickstart/index.rst
    essentials_first/index.rst
    courses/index.rst
    menu/index.rst

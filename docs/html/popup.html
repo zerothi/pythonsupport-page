@@ -4,19 +4,16 @@
     <div class="close-btn" onclick="togglePopup()">&times;</div>
 
     <div id="Py_NeedToInstall" class="">
-      <div class="title-wrapper">
-        <h1>Do you need to install Python?</h1>
-      </div>
+      <h1>Do you need to install Python?</h1>
       <div class="buttons">
         <a id="yes" onclick="startQuestionair()">Yes</a>
         <a id="no" onclick="togglePopup()">No</a>
       </div>
     </div>
-    
 
     <div id="PyS_userLevelSelector" class="hidden">
       
-      <h1>Is this your first year at DTU?</h1>
+      <h1>What is your experience level?</h1>
       <div class="PyS_d-1" onclick="PyS_redirectUser('package-managed.html');">
         First Year
       </div>
@@ -74,7 +71,7 @@
       document.getElementById("PyS_userLevelSelector").classList.add("hidden");
       document.getElementById("PyS_osSelector").classList.remove("hidden");
     } else {
-      window.location.href = "menu/" + os + "/" + userLevel;
+      window.location.href = "/menu/" + os + "/" + userLevel;
     }
   }
 </script>
