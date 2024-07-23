@@ -8,8 +8,6 @@ In the autumn semester of 2023, we will be following the guidelines in the Mathe
 and Computer Programming courses. These guidelines can be found 
 `here <https://02002.compute.dtu.dk/installation/index.html>`__.
 
-.. raw:: html
-   :file: ../html/userLevel_selector.html
 
 .. comments to be back-filled
 
