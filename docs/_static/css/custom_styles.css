@@ -36,6 +36,17 @@
     font-family: 'NeoSans', sans-serif;
   }
 
+  /* Special font for code blocks */
+  html[data-theme="dark"] [id^="codecell"] {
+    background-color: #000 !important;
+    font-family: 'Fira Mono' !important;
+    color: var(--dtu-white);
+  }
+
+  /* Special font for inline code */
+  html[data-theme="light"] .highlight .n {
+    color: var(--dtu-white);
+  }
 
   /* vvvvv STYLES TO MAKE TABS MORE VISUAL vvvvv */
 
@@ -248,7 +259,11 @@ a:hover {
   color: #E83F48 !important;
   border-bottom-color: #E83F48 !important;
   
-   /* Add underline on hover if needed */
+  text-decoration: underline; /* Add underline on hover if needed */
+}
+
+a:visited {
+  color: var(--dtu-red) !important; /* Red color */
 }
 
 /* Styles for navigation buttons (Previous and Next) */
@@ -310,7 +325,7 @@ a.reference.internal.nav-link {
 a.reference.internal.nav-link:hover {
   text-decoration: underline !important;
   font-weight: bold !important; 
-   /* Add underline on hover if needed */
+  text-decoration: underline; /* Add underline on hover if needed */
 }
 
 
@@ -508,11 +523,12 @@ li.toctree-l1.current.active > a, li.toctree-l1.current > a {
 a.reference.external:hover {
   color:#E83F48 ;
   border-bottom-color: #E83F48 ; /* SteelBlue color */
+  text-decoration: underline; /* Add underline on hover */
 }
 
 /* Change the color of the visited link */
 a.reference.external:visited {
-  color:black ; /* SlateBlue color */
+  color: var(--dtu-red) ; /* SlateBlue color */
 }
 
 
