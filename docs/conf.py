@@ -439,7 +439,7 @@ html_context = {
     "python_version": _pythonsupport["python-version"]["recommended"],
 
     # Installation methods
-    "pip": f"pip {_pref_symbol}",
+    "pip": "pip",
     "conda": "conda",
     "poetry": "poetry",
     "pyenv": "pyenv",
@@ -460,7 +460,7 @@ html_context = {
     "spyder": "Spyder",
 
     # Operating shells
-    "win_powershell": f"Windows | PS {_pref_symbol}",
+    "win_powershell": "Windows | PS",
     "win_batch": "Windows | Batch",
     "mac_bash": "MacOS",
     "linux_bash": "Linux",
