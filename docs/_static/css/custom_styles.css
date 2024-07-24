@@ -32,9 +32,12 @@
     font-weight: bold; /* Bold headings */
   }
 
-  p, li, a, span, div {
+  /* p, li, a, span, div {
     font-family: 'NeoSans', sans-serif;
-  }
+  } */
+
+    /* Special font for code blocks */
+
 
 
   /* vvvvv STYLES TO MAKE TABS MORE VISUAL vvvvv */
@@ -334,6 +337,8 @@ a.reference.internal.nav-link:hover {
 .bd-header-article.noprint {
   display: none !important;
 }
+
+
 
 
 
