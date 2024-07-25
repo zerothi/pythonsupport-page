@@ -1,14 +1,18 @@
 
 
-`conda -- environment <env-conda_>`_
+`conda -- Environment <env-conda_>`_
 ------------------------------------
+
+The conda Python package also allows you to create and manage environments with specific 
+packages and different Python versions. Once an environment has been created 
+and activated, all python and conda commands will only act within that environment.
 
 The ``conda`` Python package automatically incorporates `environments <env-conda_>`_.
 Not only will it allow environments with specific packages, one can
 also create environments with different Python versions. This can be useful if a specific
 package requires a specific Python version.
 
-Once an environment has been created, and *sourced*, all ``python`` commands only act in *that environment*.
+Once an environment has been created and sourced (activated), all ``python`` commands only act in *that environment*.
 
 
 An environment can be created using:

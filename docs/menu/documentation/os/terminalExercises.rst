@@ -4,16 +4,16 @@ What's a Terminal?
 ==================
 
 
-``The Terminal`` may sound complicated, but it is a fundamental part of every computer and a key element used in development for handling most tasks in your coding environment.
+``The Terminal`` may sound complex, but it is a fundamental part of every computer and a key element used for handling many tasks in your programming environment.
 
-You can think of the terminal as a direct line of communication between you and the computer. For instance, when you install an extension in one of your apps or create a new file using an app, you are actually using the terminal indirectly. 
-Learning how to use the Terminal allows you to give the computer the exact commands you want and to know precisely **where** and **how** new files are being created. This knowledge comes in handy when developing software or working with large databases.
+Consider the terminal as a direct communication channel between you and your computer. For instance, when you install an extension in one of your apps or create a new file using an app, you are actually using the terminal indirectly. 
+Learning how to use the Terminal allows you to give the computer the exact commands you want and to know precisely **where** and **how** new files are being created.
 
 Commands
 --------
 
 Commands executed on the terminal comprises of the application name ``<command>``, followed by arguments to the command ``<command> <arguments>``. For instance, a command creating a new directory would be expected to have
-a single mandatory argument which equals the name of the new folder. Other commands may have several mandatory arguments.
+a single argument which equals the name of the new folder. Other commands may have several arguments. These arguments may be mandatory, meaning that it is necessary to provide a value to that argument space.
 
 .. admonition:: Optional arguments and spaces in names
    :class: dropdown

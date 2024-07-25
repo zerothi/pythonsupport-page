@@ -7,52 +7,42 @@
 .. button-link:: https://www.google.com/search?q=cheatsheet+python+pip
    :color: {{ cheatsheet_color }}
    :align: right
-   :tooltip: Search google for cheatsheet
+   :tooltip: Search Google for cheatsheet
 
    Find a pip cheatsheet {{ cheatsheet_icon }}
 
-.. note::
+`pip <pypi-org_>`_ is the *de-facto* standard tool for installing, upgrading, and maintaining
+Python packages. It simplifies the management of package dependencies and supports installation 
+in global or virtual :ref:`environments <python-environments>`. pip also handles package versioning 
+to prevent compatibility issues. As a very fundamental tool for any Python developer, pip essentially 
+is an easy-to-use tool to manage your Python packages. It also has extensive `documentation <pip-org_>`_. 
 
-   ``pip`` is shipped with pretty much *all* Python installations (also :ref:`conda <conda>`).
-   As such one can use ``pip`` in both ``conda`` and pure Python installations.
+``pip`` comes with most Python installations, including :ref:`conda <conda>`.
+This means you can use ``pip`` in both ``conda`` and standard Python installations and environments.
+For installing Python first, see :ref:`here <install-python>`.
 
-   See :ref:`here <install-python>` for installing Python.
-
-
-`pip <pypi-org_>`_ is the *de-facto* standard for installing and maintaining
-packages/modules in a Python environment. Its `documentation <pip-org_>`_ is extensive.
-Here some common tips and tricks will be listed.
+Below are some common tips and tricks about pip:
 
 .. tip::
 
-   It is recommended to create virtual :ref:`python-environments`, for basically everything.
-   Testing software installations using :ref:`python-environments` allows you to do
-   everything in an area of the computer that does not interfere with the rest of the
-   system.
+   It is recommended to create virtual :ref:`environments <python-environments>` for your projects.
+   Using :ref:`python-environments` allows you to  manage installations in a way that doesn't 
+   interfere with your main system.
 
-`pip <pypi-org_>`_ will generally install packages without problems if one is in a clean
-environment (read, *no prior installed packages*).
-The longer time one uses `pip <pypi-org_>`_ in the same environment (virtual or not) the
-larger the risk is of causing problems via corrupted dependencies.
-This should not deter one from using `pip` at all, this is just to mention that doing updates
-*on the fly* may not always be a good idea without testing in a separate environment.
-
-.. contents::
-   :local:
-   :backlinks: none
-
+Using `pip <pypi-org_>`_ in a clean environment (meaning *no prior installed packages*) typically avoids installation issues. However, 
+the risk of dependency conflicts increases with prolonged use of the same environment. It is a good idea to 
+test updates in a separate environment before applying them broadly.
 
 .. _pip-installing:
 
 Installing packages
 -------------------
 
-Packages can be installed in a very simple manner, note how multiple packages and associated requirements
-can be specified in a single invocation of the program.
+You can install packages simply with `pip`. To install multiple packages at once, list them during a single `pip` command.
 
 .. note::
 
-   ``pip list`` will give you the current list of installed packages.
+   Use ``pip list`` to view currently installed packages.
 
 .. tab-set::
 
@@ -84,7 +74,7 @@ can be specified in a single invocation of the program.
 
          python3 -m pip install "numpy==1.24.*" "scipy<1.10" "matplotlib"
 
-The above will install:
+The command will install:
 
 .. note::
    :class: margin
@@ -92,12 +82,11 @@ The above will install:
    Use ``pip3 show numpy`` to get more detailed information about the ``numpy``
    package, such as directory where it is installed etc.
 
-- `numpy`_ at the latest version in the 1.24 release cycle
+- `numpy`_ at the latest version within the 1.24 release cycle
 - `scipy`_ at the latest version, but older than the 1.10
 - `matplotlib`_ at the latest version
 
-when specifying more than one package on the line, all dependencies will be checked
-against each other at install time.
+When specifying more than one package on the line, dependencies will be checked during the installation to prevent conflicts.
 
 .. note::
    
@@ -126,8 +115,8 @@ against each other at install time.
 Requirements file
 ^^^^^^^^^^^^^^^^^
 
-Many Python tutorials will share a *so called* ``requirements.txt`` file which contains
-lines packages. For instance to replicate the installation shown in :ref`pip-installing`, one could create a file (called ``requirements.txt``):
+A `requirements.txt` file is often used to replicate an environment. Many Python tutorials will share a ``requirements.txt`` file which contains
+lines of packages. For instance, to replicate the example installation shown in :ref:`pip-installing`, one could create a file called ``requirements.txt``:
 
 .. code-block::
 
@@ -135,9 +124,12 @@ lines packages. For instance to replicate the installation shown in :ref`pip-ins
    scipy,1.10
    matplotlib
 
-Basically it contains the equivalent of many packages on the same line, see :ref:`pip-installing`.
+The file contains the equivalent versions of the packages in the :ref:`pip-installing` section. 
+It is easier to do the installations with the help of a ``requirements.txt`` file when there are 
+too many packages to install at the same time, as it helps us to not do the installations with a 
+single command on the same line, or to not run the installation command multiple times.
 
-Installation using a ``requirements.txt`` file is simply specifying the file with ``-r`` flag:
+To install using ``requirements.txt``, use the ``-r`` flag:
 
 .. tab-set::
 
@@ -172,14 +164,13 @@ Installation using a ``requirements.txt`` file is simply specifying the file wit
 
 .. _pip-navigating:
 
-Navigating packages
-^^^^^^^^^^^^^^^^^^^
+Navigating and managing packages
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Quite often it is necessary to list and find extra information about the packages
-that is installed.
+It is sometimes necessary to list and find extra information on the installed packages. 
+Below is a set of commands that can be useful for interacting with the ``pip``
+packages. To list, show, or freeze the state of installed packages, use the following commands:
 
-Here is a set of commands that can be useful for interacting with the ``pip``
-packages:
 
 
 .. tab-set::
@@ -204,7 +195,7 @@ packages:
    .. tab-item:: {{ win_batch }}
       :sync: batch
 
-      .. code-block:: winbatch
+      .. code-block:: powershell
 
          # List the packages installed
          python -m pip list
@@ -258,13 +249,8 @@ packages:
 Dependencies and conflicts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Installing packages over the course of several months. During this time, new releases
-and new dependency requirements of each package arise.
-
-.. tip::
-
-   Always prefer to use :ref:`virtual environments <python-environments>`
-   to reduce package conflicts.
+Over time, installing packages can lead to dependency conflicts as new releases
+and new dependency requirements of each package may arise. 
 
 Below is a constructed example of a dependency conflict arising.
 
@@ -314,14 +300,23 @@ Below is a constructed example of a dependency conflict arising.
          ... lots of output ... then
          dtumathtools 1.0.1 requires numpy<1.24,>=1.21.1, but you have numpy 1.25.2 which is incompatible.
 
-The first command finalized package installation obeying all requirements between the installed
-packages (``dtumathtools`` depends on many other packages which will also be installed).
+.. tip::
 
-The second command will also succeed, however, at the end a warning will be printed.
-This tells us that the package ``dtumathtools`` installed is version ``1.0.1`` and that it requires
-a ``numpy`` version in the range ``1.21.1<=numpy<1.24``. However, the upgrade installed ``numpy`` version
-``1.25.2`` which is not in the requirement range. It still got installed regardless of the already installed
-packages requirements! Sometimes this results in a broken installation and nothing works.
+   Always prefer to use :ref:`virtual environments <python-environments>`
+   to reduce package conflicts.
+
+The first command completes the installation of the ``dtumathtools`` package 
+while also ensuring compliance with all the required dependencies, including 
+other related packages that get installed as they are required by ``dtumathtools``.
+
+The second command successfully executes and upgrades ``numpy`` to version 
+``1.25.2``. However, upon completion, a warning is issued indicating a potential 
+issue. Although ``dtumathtools`` version ``1.0.1`` is installed and operational, it 
+specifically requires ``numpy`` to be within the version range of ``1.21.1<=numpy<1.24``. 
+The newly installed ``numpy`` version ``1.25.2`` exceeds this required range, creating a 
+version conflict. This conflict can lead to a malfunctioning or broken installation, 
+as the requirements of some of the already installed packages (i.e., ``dtumathtools``) 
+are not satisfied.
 
 .. warning::
 
@@ -336,7 +331,7 @@ packages requirements! Sometimes this results in a broken installation and nothi
       ... pip install numpy
       ... pip install scipy
 
-To check possible conflicts in the current environment do
+To check possible conflicts in the current environment, use ``pip check``:
 
 .. tab-set::
 
@@ -368,11 +363,3 @@ To check possible conflicts in the current environment do
          
          python3 -m pip check
 
-
-.. _pip-venv-env:
-
-.. include:: /menu/documentation/environments/environment-venv.rst.include
-
-.. _pip-virtualenv-env:
-
-.. include:: /menu/documentation/environments/environment-virtualenv.rst.include

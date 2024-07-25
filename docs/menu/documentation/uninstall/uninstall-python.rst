@@ -4,8 +4,7 @@
 Uninstalling Python
 =========================================
 
-If for some reason you wish to delete Python from your computer, here is how you do it. 
-This might be useful to do in a couple of scenarios:
+If you need to delete Python from your computer, follow these steps. This might be useful in the following scenarios:
 
 1. Your current Python installation is not working properly. 
 2. You have several versions of Python that conflict with each other. 

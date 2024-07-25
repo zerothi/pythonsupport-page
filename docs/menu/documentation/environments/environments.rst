@@ -4,39 +4,36 @@
 Environments
 ============
 
-It is often necessary to retain two different but fully functional
-package specifications. Imagine having two courses ``A`` and ``B``.
-One has the requirement of ``numpy==1.23`` while the other has ``numpy==1.25``.
-In cases where these are incompatible, for instance an `API <https://en.wikipedia.org/wiki/API>`_
-change, one would be required to change the installed packages when participating in
-each course.
+Python environments are isolated spaces where you can manage separate sets of packages for different projects. 
+This helps avoid conflicts that arise when different projects require different versions of the 
+same package. For example, one project might need require ``numpy==1.23``, while another may require ``numpy==1.25``. If these versions 
+are not compatible, switching back and forth between them for different 
+projects can become quite annoying. Instead of reinstalling the correct version each time you switch projects, 
+it is possible to use environments which allows you to keep fully functional and separate
+package lists and easily swap between them.
 
-Instead, one can use *environments* which allows one to retain a fully functional
-package list and easily swap between them.
+Python environments allow you to maintain separate sets of packages, making it easy to switch between 
+completely different configurations without conflict. Using environments can be used for a variety of things:
 
-.. note::
+1. Quickly testing whether certain packages conflicts
+2. Checking whether a developed Python script is compatible with different package versions
+3. Ensuring a minimal package list (no unused packages)
+4. Maintaining multiple functional package environments
 
-   Using environments can be used for a variety of things:
+It is recommended to create a separate environment for each course or project to ensure 
+that their requirements do not interfere with each other.
 
-   1. quickly test whether certain packages conflicts
-   2. check whether a developed Python script is compatible with
-      different package versions.
-   3. ensures a minimal package list (no unused packages)
-   4. have multiple functional package environments
+.. _python-environments-venv-env:
 
-   It is our clear recommendation to create an environment for
-   each course. In this way you will ensure that anything you do
-   in that course environment will not interfere with your other
-   course environments.
+.. include:: /menu/documentation/environments/environment-venv.rst.include
 
-.. contents::
-   :depth: 2
-   :backlinks: none
-   :local:
+.. _python-environments-virtualenv-env:
 
-.. include:: environment-venv.rst.include 
-.. include:: environment-conda.rst.include 
-.. include:: environment-virtualenv.rst.include 
+.. include:: /menu/documentation/environments/environment-virtualenv.rst.include
+
+.. _python-environments-conda-env:
+
+.. include:: /menu/documentation/environments/environment-conda.rst.include
 
 
 .. _python-environments-jupyter:
@@ -44,10 +41,18 @@ package list and easily swap between them.
 Jupyter Notebooks / IPython
 ---------------------------
 
+Jupyter Notebooks and IPython are interactive computing environments that 
+enable users to write and execute code in a notebook format. These notebooks 
+can combine code, text, and visualizations. The usage of Jupyter notebooks are 
+common in many computing-related tasks of the courses at DTU.
+
+Using Virtual Environments with Jupyter
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Virtual environments and Jupyter can cause issues when Jupyter is installed in the
-system (not in the virtual environment). This is because the kernel is fixed to launch
-the Python interpreter it got installed with.
+system (not in the virtual environment). The kernel is fixed to launch
+the Python interpreter it got installed with. Kernel is a process that allows you to 
+execute the code in your Jupyter notebook by providing the necessary Python languge support.
 
 .. warning::
 
@@ -62,9 +67,8 @@ is to execute the following code in a notebook cell:
    import sys
    print(sys.exec_prefix)
 
-if it shows a directory where you have your virtual environment, you are all set!
-If not, then the simplest solution would be to install the kernel runner
-in the virtual environment:
+If it shows the directory of your virtual environment, you are all 
+set. If not, install the kernel runner in the virtual environment:
 
 
 .. tab-set::
@@ -97,6 +101,6 @@ in the virtual environment:
 
          python3 -m ipykernel install --prefix <path to venv|conda-env>
 
-Only insert the folder name in the ``< ... >`` block.
-The problem, and fix, is described in greater detail
+Replace <path to venv|conda-env> with the path to your virtual environment. 
+The problem and the fix is described in greater detail
 `here <https://ipython.readthedocs.io/en/stable/install/kernel_install.html>`__.

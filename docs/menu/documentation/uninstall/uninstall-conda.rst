@@ -3,7 +3,7 @@
 Uninstalling Anaconda/Conda
 ===========================================
 
-This is a guide on how to uninstall Anaconda from your computer.  It can help if you for example:
+This guide will help you uninstall Anaconda from your computer. This can be useful if:
 
 1. Are trying to install packages with :ref:`pip`, but you cant import the package.
 
