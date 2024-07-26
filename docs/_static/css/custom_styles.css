@@ -744,3 +744,5 @@ label.sd-tab-label:focus {
   color: #ffffff; /* White text */
   border-color: #990000; /* Even darker blue border */
 }
+
+@import url('bannerStyles.css');

@@ -1,0 +1,82 @@
+.mainBanner {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px; /* Create space below the image */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px; /* Rounded corners for the image */
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.topBanner, .bottomBanner {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1; /* Ensure both banners take up equal space */
+    
+}
+
+
+
+.topBanner {
+    background-color: var(--dtu-bright-green); /* Change to your desired background color */
+    border-top-left-radius: 15px; /* Rounded corners for the banners */
+    border-top-right-radius: 15px; /* Rounded corners for the banners */
+}
+
+.bottomBanner {
+    background-color: var(--dtu-red); /* Change to your desired background color */
+    border-bottom-left-radius: 15px; /* Rounded corners for the banners */
+    border-bottom-right-radius: 15px; /* Rounded corners for the banners */
+}
+
+.top-text, .bottom-text {
+    text-align: left;
+    font-size: 27px;
+    color: white;
+    align-self: flex-start; /* Align text to the left */
+    margin-left: 5px;
+}
+
+.top-link, .bottom-link {
+    font-size: 27px;
+    color: white;
+    align-self: flex-end; /* Align link to the right */
+    margin-right: 5px;
+}
+
+.top-text-bold, .bottom-text-bold {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.first-link-hover a:hover {
+    color: red; /* Change this to your desired hover color */
+}
+
+.special-hover a:hover {
+    color: green; /* Change this to your desired hover color */
+}
+
+/* Media Queries for smaller screens */
+@media (max-width: 600px) {
+    .top-text, .bottom-text, .top-link, .bottom-link {
+        font-size: 18px;
+    }
+
+    .top-text-bold, .bottom-text-bold {
+        font-size: 24px;
+    }
+}
