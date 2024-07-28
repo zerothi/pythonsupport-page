@@ -746,3 +746,13 @@ label.sd-tab-label:focus {
 }
 
 @import url('bannerStyles.css');
+
+a.custom-link {
+  color: #E83F48;  /* Normal color */
+  text-decoration: none;
+}
+
+a.custom-link:hover {
+  color: #E83F48;  /* Hover color */
+  text-decoration: underline;
+}
