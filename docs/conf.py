@@ -288,6 +288,7 @@ if False:
 
 html_js_files = [
     "js/external_tab.js",
+    "js/custom.js"
 ]
 
 html_css_files = [

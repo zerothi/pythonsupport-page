@@ -27,12 +27,10 @@ folder on MacOS can be avoided entirely with package manager installations.
 
 .. raw:: html
 
-
-.. raw:: html
-
-   <p><a href="https://02002.compute.dtu.dk/installation/index.html" class="custom-link">Click here for the package managed installation guide recommended for 1<sup>st</sup> year students</a>.</p>
-
-
+   <p><a href="javascript:void(0);" class="custom-link" onclick="PyS_redirectUser('package-managed.html');">
+       Click here for the package managed installation guide recommended for 1<sup>st</sup> year students.
+   </a></p>
+   
 ---------------------------
 Fully manual installation guide - Recommended for advanced users
 ---------------------------
@@ -41,13 +39,9 @@ For intermediate or advanced users, the fully manual installation guide offers d
 
 .. raw:: html
 
-
-.. raw:: html
-
-   <p><a href="https://02002.compute.dtu.dk/installation/index.html" class="custom-link">Click here for the fully manual installation guide. </p>
-
-
-
+   <p><a href="javascript:void(0);" class="custom-link" onclick="PyS_redirectUser('fully-manual.html');">
+       Click here for the fully manual installation guide.
+   </a></p>
 
 
 
