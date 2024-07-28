@@ -13,6 +13,8 @@
     justify-content: space-between;
     height: 100%;
     background:url('../mobileImage.png');
+    background-size: 80%;
+    background-position: -24% 33%;
     position: relative;
     border-radius: 15px; /* Rounded corners for the container */
 }
@@ -30,13 +32,13 @@
 
 
 .topBanner {
-    background-color: rgba(31,208,130,0.4); /* Change to your desired background color */
+    background-color: rgba(31, 208, 130, 0.7); /* Change to your desired background color */
     border-top-left-radius: 15px; /* Rounded corners for the banners */
     border-top-right-radius: 15px; /* Rounded corners for the banners */
 }
 
 .bottomBanner {
-    background-color: rgba(232, 63, 72, 0.4); /* Change to your desired background color */
+    background-color: rgba(232, 63, 72, 0.7); /* Change to your desired background color */
     border-bottom-left-radius: 15px; /* Rounded corners for the banners */
     border-bottom-right-radius: 15px; /* Rounded corners for the banners */
 }
@@ -46,15 +48,33 @@
     font-size: 27px;
     color: white;
     align-self: flex-start; /* Align text to the left */
-    margin-left: 5px;
+    margin-left: 12px;
+}
+
+
+.bottom-text {
+    text-align: left;
+    font-size: 27px;
+    color: white;
+    align-self: flex-start; /* Align text to the left */
+    margin-left: 12px;
 }
 
 .top-link, .bottom-link {
     font-size: 27px;
     color: white;
-    align-self: flex-end; /* Align link to the right */
-    margin-right: 5px;
+    align-self: flex-start; /* Align link to the left */
+    margin-left: 430px;
 }
+
+.bottom-link{
+
+    margin-bottom: 5px;
+}
+
+
+
+
 
 .top-text-bold, .bottom-text-bold {
     font-size: 36px;
@@ -62,12 +82,18 @@
 }
 
 .first-link-hover a:hover {
-    color: red; /* Change this to your desired hover color */
+    color: #E83F48; /* Change this to your desired hover color */
 }
 
 .special-hover a:hover {
-    color: green; /* Change this to your desired hover color */
+    color: #1fd082; /* Change this to your desired hover color */
 }
+
+
+--dtu-bright-green: #1fd082;
+--dtu-red: #E83F48;
+--dtu-green: #008835;
+--dtu-red-corporate: #990000;
 
 /* Media Queries for smaller screens */
 @media (max-width: 600px) {
