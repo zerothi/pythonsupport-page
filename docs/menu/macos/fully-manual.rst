@@ -71,6 +71,9 @@ Then, search for Jupyter, and download that extension as well. Make sure that it
       :width: 200
       :align: center
 
+Supporter's Notes
+-----------------
+
 You are always welcome to visit us at our office hours, or contact us via email or Discord. More information can be found at our homepage.
 
 
