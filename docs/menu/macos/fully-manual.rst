@@ -4,48 +4,74 @@ MacOS - Fully manual installation guide
 .. tip::
     You can copy and paste all code in the grey code blocks below by hovering your mouse over the block and pressing the icon in the top right.
 
-Step 1: Download and install miniconda
+Step 1: Download and install Miniconda
 --------------------------------------
 
-Go to `Anaconda Website <https://docs.anaconda.com/free/miniconda/index.html>`_, where you scroll down to ``Latest Miniconda installer links``.
+First thing you need to do is download Miniconda. This is done by going to `this <https://docs.anaconda.com/free/miniconda/index.html>`_  website, where you scroll down to Latest Miniconda installer links.
 
-* If you have an **Intel processor** you need to select ``Miniconda3 macOS Intel x86 64-bit pkg``.
+If you have an Intel processor, you need to select *Miniconda3 macOS Intel x86 64-bit pkg*.
 
-* If you have an **M processor** you need to select ``Miniconda3 macOS Apple M1 64-bit pkg``. Even if you have an M2 or M3. 
+If you have an M processor, you need to select *Miniconda3 macOS Apple M1 64-bit pkg*, even if you have an M2 or M3. You can find out which processor you have by pressing the Apple logo on the top left of your screen, about this Mac, and then under Processor.
 
+Then you need to follow the instructions of the installer.
 
-You can find out which processor you have by pressing the Apple logo on the top left of your screen, about this Mac, and then under Processor. Then you need to follow the instructions from the package. 
+Step 2: Install Anaconda Navigator
+----------------------------------
 
-Step 2: Install Anaconda navigator
---------------------------------------
-
-Run the following line in your terminal:
+After installing Miniconda, you need to install the Anaconda Navigator. This is done by running the following line in your terminal:
 
 .. code-block::
 
-    conda install anaconda-navigator
+    conda install anaconda-navigator –yes
 
-If you are unsure on how to open your terminal, it can be done by pressing command + space. There after search ``terminal``.
+If you are unsure on how to open your terminal, it can be done by pressing ``command + space``, and searching for ``terminal``.
 
-Now run the following commands in terminal one at a time: 
+Now run the following commands in the terminal one at a time: 
 
 .. code-block::
 
-    CODIGO
+    conda install python=3.11 –yes
 
 and 
 
 .. code-block::
 
-    pip3 install dtumathtools uncertainties
+    conda install -c conda-forge dtumathtools uncertainties
 
 
 Step 3: Install Visual Studio Code
 --------------------------------------
 
-This is done by going to `Visual Studio Code Webpage <https://code.visualstudio.com>`_. Click the download button and follow the instructions. Once downloaded make sure that the VSC app is under the APPS folder in finder. 
+.. |applications| image:: /menu/images/macos-applications.png
+    :height: 25px
 
-Open VSC and select the Extensions tab on the left, or press command + shift + X. Here search for Python, and download the extension. **Make sure that it's from Microsoft**. Hereafter search for Jupyter, and download that extension as well. This also needs to be from Microsoft.
+After the installation of Anaconda Navigator finished, you need to download Visual Studio Code. This is done by going to `this <https://docs.anaconda.com/free/miniconda/index.html>`_ website. Click the download button and follow the instructions.
+
+Once the installation is completed, make sure that the Visual Studio Code (VSC) app is under the |applications| folder in Finder. 
+
+Step 4: Install extensions for Visual Studio Code
+-------------------------------------------------
+
+.. |extensions| image:: /menu/images/extensions.png
+    :height: 25px
+
+Finally, you need to install some extensions in Visual Studio Code. This is done by pressing the 
+``Extensions`` |extensions| button on the left side, or pressing ``command + shift + X``. 
+
+Here, search for Python, and download the extension. Make sure that it's from Microsoft. 
+
+.. image:: /menu/images/macos-package-managed-python.png
+      :width: 200
+      :align: center
+
+
+Then, search for Jupyter, and download that extension as well. Make sure that it's from Microsoft as well.
+
+.. image:: /menu/images/macos-package-managed-jupyter.png
+      :width: 200
+      :align: center
+
+You are always welcome to visit us at our office hours, or contact us via email or Discord. More information can be found at our homepage.
 
 
 
