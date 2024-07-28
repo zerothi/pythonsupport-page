@@ -20,7 +20,7 @@ After this you need to install the Anaconda Navigator. This is done by running t
 
 .. code-block::
 
-    conda install anaconda-navigator –yes
+    conda install anaconda-navigator -–yes
 
 
 If you are unsure on how to open the *Powershell*, it can be done by searching for *Powershell*. Once you see *Powershell*, on the right hand side you can select 
@@ -30,7 +30,7 @@ Now run the following commands in your *Powershell* one at a time:
 
 .. code-block::
 
-    conda install python=3.11 –yes
+    conda install python=3.11 -–yes
 
 and 
 

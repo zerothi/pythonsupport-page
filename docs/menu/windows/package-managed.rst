@@ -31,7 +31,7 @@ After this you need to install the Anaconda Navigator. This is done by running t
 
 .. code-block::
 
-    conda install anaconda-navigator –yes
+    conda install anaconda-navigator -–yes
 
 
 Now run the following commands in terminal one at a time: 

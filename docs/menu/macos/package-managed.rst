@@ -34,21 +34,21 @@ Once Homebrew has been installed, open your Terminal, paste the following code a
 
 .. code-block:: 
         
-    brew install –cask miniconda
+    brew install -–cask miniconda
 
 
 After this, you need to install the Anaconda Navigator. This is done by running the following line in your terminal:
 
 .. code-block:: 
 
-    conda install anaconda-navigator –yes
+    conda install anaconda-navigator -–yes
 
 
 Now run the following commands in the terminal one at a time:
 
 .. code-block:: 
 
-    conda install python=3.11 –yes
+    conda install python=3.11 -–yes
 
 
 and
@@ -65,7 +65,7 @@ After the Conda installations, you need to install Visual Studio Code. This is d
 
 .. code-block::    
 
-    brew install –cask visual-studio-code
+    brew install -–cask visual-studio-code
 
 
 Step 4: Install extensions for Visual Studio Code

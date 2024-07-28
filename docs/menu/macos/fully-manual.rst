@@ -22,7 +22,7 @@ After installing Miniconda, you need to install the Anaconda Navigator. This is 
 
 .. code-block::
 
-    conda install anaconda-navigator –yes
+    conda install anaconda-navigator -–yes
 
 If you are unsure on how to open your terminal, it can be done by pressing ``command + space``, and searching for ``terminal``.
 
@@ -30,7 +30,7 @@ Now run the following commands in the terminal one at a time:
 
 .. code-block::
 
-    conda install python=3.11 –yes
+    conda install python=3.11 -–yes
 
 and 
 
