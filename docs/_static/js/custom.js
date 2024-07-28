@@ -1,7 +1,6 @@
 let userLevel;
 
 function PyS_isOperatingSytem() {
-    // This could be used to pre-check the OS question
     if (navigator.appVersion.indexOf("Android") != -1) return false;
     if (navigator.appVersion.indexOf("iPhone") != -1) return false;
     if (navigator.appVersion.indexOf("Win") != -1) return "windows";
@@ -11,7 +10,7 @@ function PyS_isOperatingSytem() {
 }
 
 function PyS_osSelector(os) {
-    const baseUrl = window.location.href.replace(/\/quickstart\/.*/, '/'); // Construct base URL excluding 'quickstart'
+    const baseUrl = getBaseUrl();
     window.location.href = `${baseUrl}menu/${os}/${userLevel}`;
 }
 
@@ -22,9 +21,18 @@ function PyS_redirectUser(UserLevel) {
         document.getElementById("PyS_userLevelSelector").classList.add('hidden');
         document.getElementById("PyS_osSelector").classList.remove('hidden');
     } else {
-        const baseUrl = window.location.href.replace(/\/quickstart\/.*/, '/'); // Construct base URL excluding 'quickstart'
+        const baseUrl = getBaseUrl();
         window.location.href = `${baseUrl}menu/${os}/${userLevel}`;
     }
 }
 
-
+function getBaseUrl() {
+    let pathArray = window.location.pathname.split('/');
+    let newPathname = "";
+    for (let i = 0; i < pathArray.length - 1; i++) {
+        if (pathArray[i] !== "quickstart") {
+            newPathname += pathArray[i] + "/";
+        }
+    }
+    return window.location.origin + newPathname;
+}
