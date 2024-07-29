@@ -65,6 +65,7 @@ Office hours
    essentials_first/index.rst
    courses/index.rst
    menu/index.rst
-   faqs/index.rst
+   .. faqs/index.rst
+   
    Knowledgebase/index.rst
    TroubleshootingGuide/index.rst
