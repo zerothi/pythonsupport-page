@@ -9,6 +9,9 @@ First you need to download the package manager Homebrew. This is done by going t
 and follow the instructions. Tip: The Homebrew website will ask you to open a terminal. This is
 done by pressing the "command" and "space" buttons at the same time and searching for terminal
 
+.. image:: /menu/images/macos-package-managed-homebrew.png
+    :width: 400
+    :align: center
 
 Be aware that Homebrew will need to be added to path. when the installation is done, it will ask
 you to copy, paste and run some code in the terminal

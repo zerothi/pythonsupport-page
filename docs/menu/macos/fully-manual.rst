@@ -8,14 +8,31 @@ MacOS - Fully manual installation guide
 Step 1: Download Miniconda
 ---------------------------
 
-First thing you need to do is download Miniconda. This is done by going to `this website  <https://docs.anaconda.com/free/miniconda/index.html>`_, where
-you scroll down to Latest Miniconda installer links. 
+First thing you need to do is download Miniconda. This is done by going to `this website  <https://docs.anaconda.com/miniconda/index.html#latest-miniconda-installer-links>`_, and downloading the appropriate installer for your system.
+Under the title "Latest Miniconda installer links", you will see different installers where you will have to download the correct one.
 If you have an Intel processor you need to select Miniconda3 macOS Intel x86 64-bit pkg.
 If you have an M processor you need to select Miniconda3 macOS Apple M1 64-bit pkg. Even if
 you have an M2 or M3.
+
+.. image:: /menu/images/macos-fully-manual-miniconda.png
+    :width: 400
+    :align: center
+
+
 You can find out which processor you have by pressing the Apple logo an the top left of your
 screen. Go to "About This Mac", and then under "Chip/Processor".
+
+.. image:: /menu/images/macos-fully-manual-processor.png
+    :width: 200
+    :align: center
+
+
 Then you need to follow the instructions from the package.
+
+.. image:: /menu/images/macos-fully-manual-miniconda-pkg.png
+    :width: 400
+    :align: center
+
 
 Step 2: Downloading Python
 ---------------------------
@@ -39,7 +56,11 @@ After the installation is finished, you need to download Visual Studio Code. Thi
 to `this website  <https://code.visualstudio.com>`_. Click the download button and follow the instructions. 
 Once downloaded make sure that the VSC app is under the APPS folder in finder.
 
- 
+
+.. image:: /menu/images/macos-fully-manual-vsc-webpage.png
+      :width: 500
+      :align: center
+
 
 Open Visual Studio Code and select the Extensions tab on the left. Here search for Python, and
 download the extension. Make sure that it is from Microsoft. Hereafter search for Jupyter, and

@@ -8,9 +8,15 @@ Windows - Fully manual installation guide
 Step 1: Install Miniconda
 --------------------------
 
-First ting you need to do is download Miniconda. This is done by going to `this website  <https://docs.anaconda.com/free/miniconda/index.html>`_ , where
-you scroll down to Latest Miniconda installer links.
+First thing you need to do is download Miniconda. This is done by going to `this website  <https://docs.anaconda.com/miniconda/index.html#latest-miniconda-installer-links>`_, and downloading the appropriate installer for your system.
+Under the title "Latest Miniconda installer links", you will see different installers where you will have to download the correct one.
 Here you need to click and download Miniconda3 Windows 64-bit.
+
+.. image:: /menu/images/windows-fully-manual-miniconda.png
+    :width: 400
+    :align: center
+
+
 Then you need to follow the instructions during the installations. Make sure to cross of all the
 options regarding **PATH** ect
 
@@ -38,6 +44,11 @@ Step 3: Install VS Code:
 
 After the installation is finished, you need to download Visual Studio Code. This is done by going
 to `this website  <https://code.visualstudio.com>`_. Click the download button and follow the instructions.
+
+.. image:: /menu/images/macos-fully-manual-vsc-webpage.png
+      :width: 500
+      :align: center
+      
 
 Open Visual Studio Code and select the Extensions tab on the left. Here search for Python, and
 download the extension. Make sure that it's from Microsoft. Hereafter search for Jupyter, and
