@@ -63,6 +63,28 @@ download that extension as well. This also needs to be from Microsoft.
       :align: center
 
 
+Verification and Quick Troubleshooting
+--------------------------------------
+To ensure that your installation is working correctly, please go through the following steps.
+Open up PowerShell again. if you see (base) next to your username, you can proceed. Otherwise do the following:
+
+• Search for Miniconda PowerShell promt on your computer and open it up. (if you cannot find it, try to install Miniconda again)
+• After opening the Miniconda shell, type the following and press enter conda init.
+• Open up PowerShell again and verify that you now see (base).
+• Finally type idle in PowerShell and press enter. This should open up a new window in which you will able to run python code.
+
+Now ensure the following:
+
+• It says Python 3.11.xx in the top left.
+• You get no errors when typing ``import dtumathools, uncertainties`` and press enter.(Nothing should happen)
+
+If it is not the case for one of the above, try to paste the following line of code in PowerShell and press enter:
+
+.. code-block::
+
+     conda install -c conda-forge python=3.11 dtumathtools uncertainties -y
+
+
 Supporter's Notes
 -----------------
 
