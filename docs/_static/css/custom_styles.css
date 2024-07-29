@@ -756,3 +756,7 @@ a.custom-link:hover {
   color: #E83F48;  /* Hover color */
   text-decoration: underline;
 }
+
+.sd-card-hover:hover {
+  border-color: #E83F48 !important; /* Optional: Add a border or change its color */
+}
