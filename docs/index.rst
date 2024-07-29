@@ -67,3 +67,4 @@ Office hours
    menu/index.rst
    faqs/index.rst
    Knowledgebase/index.rst
+   TroubleshootingGuide/index.rst
