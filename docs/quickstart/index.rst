@@ -77,3 +77,16 @@ For intermediate or advanced users, the fully manual installation guide offers d
          Please use virtual environments so your Python codes works across courses.
 
          Press this for information.
+
+
+
+.. toctree::
+   :maxdepth: 1
+
+   Automated installation for MacOS <../menu/macos/automated.rst>
+   Manual installation for MacOs <../menu/macos/fully-manual.rst>
+   Package managed installation for MacOS <../menu/macos/package-managed.rst>
+   Automated installation for Windows <../menu/windows/automated.rst>
+   Manual installation for Windows <../menu/windows/fully-manual.rst>
+
+   

@@ -4,20 +4,22 @@ Windows - Automated installation guide
 .. tip::
     You can copy and paste all code in the grey code blocks below by hovering your mouse over the block and pressing the icon in the top right.
 
-Open your Command Prompt as an administrator. This can be done by searching for ``cmd``. Once you see ``Command Prompt``, on the right hand side you can select ``Run as administrator``.
 
-Next you need to copy the following line of code into your terminal and press enter.
+#. 
 
-.. code-block::
+    The first thing you need to do is to open Powershell as an administrator. This can be done
+    by opening the menu bar, then search for *Windows Powershell*. Once you see Windows
+    Powershell, on the right hand side you can select *Run as administrator*. If not, right-click the
+    icon and select *Run as administrator*
 
-    CODIGO
+#. 
+    Next you need to copy the following line of code into your terminal and press enter:
 
-This might ask for permission to make changes on your PC. To this you have to say yes.
-Once the script is finished, python and Visual Studio Code will be ready to use.
+    .. code-block::
 
-.. raw:: html
-    
-    <iframe src="https://panopto.dtu.dk/Panopto/Pages/Embed.aspx?id=ed8bea53-566e-430b-800d-b18400b3ff31&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+        PowerShell -ExecutionPolicy Bypass -Command "& {Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/dtudk/pythonsupport-scripts/main/AutoInstallWindows.ps1' -UseBasicParsing).Content}"
 
+#.
+    Wait until you see *Script finished*
 
-
+Once the script is finished, Python and Visual Studio Code will be ready to use
