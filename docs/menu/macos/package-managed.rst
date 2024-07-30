@@ -57,10 +57,18 @@ terminal and executing it:
 
     brew install --cask visual-studio-code
 
-Finally you need to install some extensions in visual studio code. This is done by pressing the
-Extensions button on the left side. Here search for ``Python``, and download the extension. Make
+
+Step 4: Install extensions for Visual Studio Code
+-------------------------------------------------
+
+.. |extensions| image:: /menu/images/extensions.png
+    :height: 25px
+
+
+Finally you need to install some extensions in Visual Studio Code. This is done by pressing the
+Extensions |extensions| button on the left side. Here search for ``Python``, and download the extension. Make
 sure that it is from Microsoft. Hereafter search for ``Jupyter``, and download that extension as
-well. This also needs to be from Microsoft
+well. This also needs to be from Microsoft.
 
 .. image:: /menu/images/macos-package-managed-python.png
       :width: 200

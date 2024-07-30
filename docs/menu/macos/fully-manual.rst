@@ -11,7 +11,7 @@ MacOS - Manual installation guide
 
 .. _fully-manual-reference-mac:
 
-Step 1: Download Miniconda
+Step 1: Install Miniconda
 ---------------------------
 
 First thing you need to do is download Miniconda. This is done by going to `this website  <https://docs.anaconda.com/miniconda/index.html#latest-miniconda-installer-links>`_, and downloading the appropriate installer for your system.
@@ -40,7 +40,7 @@ Then you need to follow the instructions from the package.
     :align: center
 
 
-Step 2: Downloading Python
+Step 2: Install Python
 ---------------------------
 
 Now you need to open týour terminal. This is done by pressing the "command" and "space" key at the same time and searching for "terminal".
@@ -55,12 +55,15 @@ Copy and paste the following lines of cod einto your terminal and press enter on
     conda install -c conda-forge dtumathtools uncertainties
 
 
-Step 3: Set up VS Code
+Step 3: Install VS Code
 ----------------------------
+
+.. |applications| image:: /menu/images/macos-applications.png
+    :height: 25px
 
 After the installation is finished, you need to download Visual Studio Code. This is done by going
 to `this website  <https://code.visualstudio.com>`_. Click the download button and follow the instructions. 
-Once downloaded make sure that the VSC app is under the APPS folder in finder.
+Once downloaded make sure that the VSC app is under the |applications| folder in Finder.
 
 
 .. image:: /menu/images/macos-fully-manual-vsc-webpage.png
@@ -68,7 +71,14 @@ Once downloaded make sure that the VSC app is under the APPS folder in finder.
       :align: center
 
 
-Open Visual Studio Code and select the Extensions tab on the left. Here search for Python, and
+Step 4: Install extensions for Visual Studio Code
+-------------------------------------------------
+
+.. |extensions| image:: /menu/images/extensions.png
+    :height: 25px
+
+
+Open Visual Studio Code and select the Extensions |extensions| tab on the left. Here search for Python, and
 download the extension. Make sure that it is from Microsoft. Hereafter search for Jupyter, and
 download that extension as well. This also needs to be from Microsoft.
 

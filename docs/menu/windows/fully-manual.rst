@@ -55,7 +55,14 @@ to `this website  <https://code.visualstudio.com>`_. Click the download button a
       :align: center
       
 
-Open Visual Studio Code and select the Extensions tab on the left. Here search for Python, and
+Step 4: Install extensions for Visual Studio Code
+-------------------------------------------------
+
+.. |extensions| image:: /menu/images/extensions.png
+    :height: 25px
+
+
+Open Visual Studio Code and select the Extensions |extensions| tab on the left. Here search for Python, and
 download the extension. Make sure that it's from Microsoft. Hereafter search for Jupyter, and
 download that extension as well. This also needs to be from Microsoft.
 
