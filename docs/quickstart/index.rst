@@ -81,6 +81,7 @@ For intermediate or advanced users, the fully manual installation guide offers d
 
 
 .. toctree::
+   :caption: All available guides can be found below 
    :maxdepth: 1
 
    Automated installation for MacOS <../menu/macos/automated.rst>
