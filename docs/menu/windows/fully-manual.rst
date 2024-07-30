@@ -71,7 +71,7 @@ Open up PowerShell again. if you see (base) next to your username, you can proce
 • Search for Miniconda PowerShell promt on your computer and open it up. (if you cannot find it, try to install Miniconda again)
 • After opening the Miniconda shell, type the following and press enter conda init.
 • Open up PowerShell again and verify that you now see (base).
-• Finally type idle in PowerShell and press enter. This should open up a new window in which you will able to run python code.
+• Finally type ``idle`` in PowerShell and press enter. This should open up a new window in which you will able to run python code.
 
 Now ensure the following:
 

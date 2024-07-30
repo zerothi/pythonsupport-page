@@ -29,3 +29,40 @@ MacOS - Automated installation guide
     all be resolved automatically by the script. Please let the script finish. When you see Script
     finished, the installation has been successful
 
+
+Verification and Quick Troubleshooting
+---------------------------------------
+
+* 
+    Open up a terminal again. if you see (base) next to your username, you can proceed. Otherwise
+    try to install miniconda again. Miniconda can be found on `this website  <https://docs.anaconda.com/miniconda/index.html#latest-miniconda-installer-links>`_. 
+    For further information, see step 1 :ref:`here <my-reference-label>`
+
+* 
+
+    Open up a terminal again and verify that you now see (base)
+
+* 
+
+    Finally type idle3 in a terminal and press Enter. This should open up a new window in which
+    you will able to run python code
+
+* 
+    | now ensure the following:
+    | It says Python 3.11.xx in the top left 
+    | You get no errors when typing ``import dtumathtools, uncertainties`` and pressing enter. (nothing should happen)
+
+* 
+    If you do get an error for the above, try to paste the following line of code in a temrinal and pressing enter 
+
+    .. code-block::
+
+        conda install -c conda-forge python=3.11 dtumathtools uncertainties -y
+
+* 
+    open up idle3 again to verify. 
+
+
+
+
+
