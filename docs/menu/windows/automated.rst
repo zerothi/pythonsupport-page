@@ -1,5 +1,10 @@
+.. _automated-reference-windows:
+
 Windows - Automated installation guide
 ================================
+
+.. note::
+    Not using **Windows**? The automated installation guide for **MacOS** can be found :ref:`here <automated-reference-MacOS>`
 
 .. tip::
     You can copy and paste all code in the grey code blocks below by hovering your mouse over the block and pressing the icon in the top right.

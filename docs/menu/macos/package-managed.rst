@@ -1,5 +1,9 @@
 MacOS - Package managed installation guide
 ================================
+
+.. note::
+    not using **MacOS**? A similar installation guide for **Windows** can be found :ref:`here <manual-reference-windows>`
+
 .. tip::
     You can copy and paste all code in the grey code blocks below by hovering your mouse over the block and pressing the icon in the top right.
 
@@ -73,7 +77,7 @@ Verification and Quick Troubleshooting
 * 
     Open up a terminal again. if you see (base) next to your username, you can proceed. Otherwise
     try to install miniconda again. Miniconda can be found on `this website  <https://docs.anaconda.com/miniconda/index.html#latest-miniconda-installer-links>`_. 
-    For further information, see step 1 :ref:`here <my-reference-label>`
+    For further information, see step 1 :ref:`here <_fully-manual-reference-mac>`
 
 * 
 

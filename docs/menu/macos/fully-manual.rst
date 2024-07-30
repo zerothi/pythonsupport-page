@@ -1,11 +1,15 @@
-MacOS - Fully manual installation guide
+.. _manual-reference-macOS:
+
+MacOS - Manual installation guide
 =======================================
 
+.. note::
+    not using **MacOS**? The manual installation guide for **Windows** can be found :ref:`here <manual-reference-windows>`
 .. tip::
     You can copy and paste all code in the grey code blocks below by hovering your mouse over the block and pressing the icon in the top right.
 
 
-.. _my-reference-label:
+.. _fully-manual-reference-mac:
 
 Step 1: Download Miniconda
 ---------------------------
