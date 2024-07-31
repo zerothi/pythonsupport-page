@@ -51,4 +51,9 @@ If it is not the case for one of the above, try to paste the following line of c
 
      conda install -c conda-forge python=3.11 dtumathtools uncertainties -y
 
-Once the script is finished, Python and Visual Studio Code will be ready to use
+Once the script is finished, Python and Visual Studio Code will be ready to use.
+
+Supporter's Notes
+-----------------
+
+You are always welcome to visit us at our office hours, or contact us via email or Discord. More information can be found at our :ref:`homepage <reach-us-reference>`.

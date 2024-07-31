@@ -136,5 +136,4 @@ Verification and Quick Troubleshooting
 Supporter's Notes
 -----------------
 
-You are always welcome to visit us at our office hours, or contact us via email or Discord. More information can be found at our homepage.
-
+You are always welcome to visit us at our office hours, or contact us via email or Discord. More information can be found at our :ref:`homepage <reach-us-reference>`.

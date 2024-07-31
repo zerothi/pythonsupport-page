@@ -1,3 +1,5 @@
+.. _homepage-reference:
+
 .. pythonsupport documentation master file, created by
    sphinx-quickstart on Mon Aug  7 12:41:08 2023.
    You can adapt this file completely to your liking, but it should at least
@@ -19,6 +21,8 @@ DTU Python Installation Support
 .. raw:: html
       :file: html/main_banner.html
 
+
+.. _reach-us-reference:
 --------
 Reach us
 --------

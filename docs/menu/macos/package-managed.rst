@@ -122,5 +122,4 @@ Supporter's Notes
 -----------------
 When writing your password in the terminal, it will not show that you are writing. Don't worry, you are writing, you just need to type your password and press enter, and it is all good. If you are in doubt, you can check out the video guide.
 
-You are always welcome to visit us at our office hours, or contact us via email or Discord. More information can be found at our homepage.
-
+You are always welcome to visit us at our office hours, or contact us via email or Discord. More information can be found at our :ref:`homepage <reach-us-reference>`.
