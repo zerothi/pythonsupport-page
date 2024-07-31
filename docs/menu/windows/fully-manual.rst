@@ -4,7 +4,7 @@ Windows - Manual installation guide
 ================================
 
 .. note::
-    not using **Windows**? The manual installation guide for **MacOS** can be found :ref:`here <manual-reference-MacOS>`
+    Not using **Windows**? The manual installation guide for **MacOS** can be found :ref:`here <manual-reference-MacOS>`.
 
 .. tip::
     You can copy and paste all code in the grey code blocks below by hovering your mouse over the block and pressing the icon in the top right.
