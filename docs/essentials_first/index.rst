@@ -1,3 +1,5 @@
+.. _essentials-reference:
+
 Python essentials
 ===================================
 

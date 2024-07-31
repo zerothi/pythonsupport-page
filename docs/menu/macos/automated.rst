@@ -35,6 +35,8 @@ MacOS - Automated installation guide
     all be resolved automatically by the script. Please let the script finish. When you see Script
     finished, the installation has been successful
 
+.. tip::
+    When you have finished the guide, we **strongly recommend** checking out the :ref:`Python Essentials <essentials-reference>` to prepare you for coding.
 
 Verification and Quick Troubleshooting
 ---------------------------------------

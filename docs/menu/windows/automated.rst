@@ -27,6 +27,8 @@ Windows - Automated installation guide
 #.
     Wait until you see *Script finished*
 
+.. tip::
+    When you have finished the guide, we **strongly recommend** checking out the :ref:`Python Essentials <essentials-reference>` to prepare you for coding.
 
 Verification and Quick Troubleshooting
 --------------------------------------

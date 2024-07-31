@@ -50,7 +50,7 @@ Step 3: Install VS Code:
 After the installation is finished, you need to download Visual Studio Code. This is done by going
 to `this website  <https://code.visualstudio.com>`_. Click the download button and follow the instructions.
 
-.. image:: /menu/images/macos-fully-manual-vsc-webpage.png
+.. image:: /menu/images/windows-fully-manual-vsc-webpage.png
       :width: 500
       :align: center
       
@@ -74,6 +74,9 @@ download that extension as well. This also needs to be from Microsoft.
       :width: 200
       :align: center
 
+
+.. tip::
+    When you have finished the guide, we **strongly recommend** checking out the :ref:`Python Essentials <essentials-reference>` to prepare you for coding.
 
 Verification and Quick Troubleshooting
 --------------------------------------

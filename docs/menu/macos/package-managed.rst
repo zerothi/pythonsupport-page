@@ -1,3 +1,6 @@
+.. _package-managed-reference-macOS:
+
+
 MacOS - Package managed installation guide
 ================================
 
@@ -78,6 +81,8 @@ well. This also needs to be from Microsoft.
       :width: 200
       :align: center
 
+.. tip::
+    When you have finished the guide, we **strongly recommend** checking out the :ref:`Python Essentials <essentials-reference>` to prepare you for coding.
 
 Verification and Quick Troubleshooting
 ---------------------------------------
@@ -85,7 +90,7 @@ Verification and Quick Troubleshooting
 * 
     Open up a terminal again. if you see (base) next to your username, you can proceed. Otherwise
     try to install miniconda again. Miniconda can be found on `this website  <https://docs.anaconda.com/miniconda/index.html#latest-miniconda-installer-links>`_. 
-    For further information, see step 1 :ref:`here <_fully-manual-reference-mac>`
+    For further information, see step 1 :ref:`here <fully-manual-reference-mac>`
 
 * 
 
