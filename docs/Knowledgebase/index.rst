@@ -1,3 +1,6 @@
+.. _video-tutorials-reference:
+
+
 Video Tutorials
 ======================
 

@@ -27,10 +27,9 @@ Reach us
    :gutter: 1
 
    .. grid-item-card:: :fas:`person-running` -- Visit us
-      :link: office-hours
-      :link-type: doc
+      :link: #office-hours
 
-      You can find us at building **302**, room **92** {{online_days}}. See our office hours here.
+      | You can find us at building **302**, room **92** {{online_days}}. See our office hours here.
 
    .. grid-item-card:: :fas:`envelope` -- E-mail us
       :link: mailto:pythonsupport@dtu.dk
@@ -44,6 +43,22 @@ Reach us
 
       | Join our Discord channel to reach us online, even after normal working hours.
 
+------------------------
+What's on this website?
+------------------------
+
+Welcome to the DTU Python Installation Support webpage. This webpage provides 
+essential information and resources for installing and managing Python on your 
+personal computer.
+
+- :ref:`Install Python <install-python-reference>`: Access system-specific installation guides.
+- :ref:`Python Essentials <essentials-reference>`: Learn the essential tools for starting Python coding.
+- :ref:`DTU Course Guidelines <course-index>`: Find installation guides for specific DTU courses. If you are an instructor, you can also host your course's installation guide here.
+- :ref:`Learn More <Documentation_index2>`: Navigate Python with information on pip, environments, terminal usage, and uninstallation.
+- :ref:`Video Tutorials <video-tutorials-reference>`: Watch guides on essential Python topics, including VS Code, workspaces, terminals, debugging, Jupyter notebooks, extensions, package imports, environment creation, and keybindings.
+
+
+.. _office-hours:
 
 ------------
 Office hours

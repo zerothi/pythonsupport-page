@@ -1,3 +1,5 @@
+.. _install-python-reference:
+
 Install Python 
 =================
 
