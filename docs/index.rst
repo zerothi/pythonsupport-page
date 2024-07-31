@@ -51,15 +51,15 @@ Reach us
 What's on this website?
 ------------------------
 
-Welcome to the DTU Python Installation Support webpage. This webpage provides 
-essential information and resources for installing and managing Python on your 
-personal computer.
+Welcome to the DTU Python Installation Support website. This website provides 
+essential information and resources for installing Python on your 
+personal computer, and helping you get ready to start programming with Python.
 
-- :ref:`Install Python <install-python-reference>`: Access system-specific installation guides.
-- :ref:`Python Essentials <essentials-reference>`: Learn the essential tools for starting Python coding.
+- :ref:`Install Python <install-python-reference>`: Access installation guides based on your operating system.
+- :ref:`Python Essentials <essentials-reference>`: Learn the essential tools for starting with Python coding.
 - :ref:`DTU Course Guidelines <course-index>`: Find installation guides for specific DTU courses. If you are an instructor, you can also host your course's installation guide here.
 - :ref:`Learn More <Documentation_index2>`: Navigate Python with information on pip, environments, terminal usage, and uninstallation.
-- :ref:`Video Tutorials <video-tutorials-reference>`: Watch guides on essential Python topics, including VS Code, workspaces, terminals, debugging, Jupyter notebooks, extensions, package imports, environment creation, and keybindings.
+- :ref:`Video Tutorials <video-tutorials-reference>`: Watch video guides on essential Python topics, including VS Code, workspaces, terminals, debugging, Jupyter notebooks, extensions, package imports, environment creation, and keybindings.
 
 
 .. _office-hours:

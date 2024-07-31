@@ -16,7 +16,7 @@ Installation on Windows
 Installation on MacOS
 -----------------------
 
-* | **(recommended)** The :ref:`package managed installation guide. <package-managed-reference-macOS>` allows you to set up Python step by step.
+* | **(recommended)** The :ref:`package managed installation guide <package-managed-reference-macOS>` allows you to set up Python step by step.
 * The :ref:`automated installation <automated-reference-MacOS>` completes the same steps for you, ensuring that no steps are missed.
 * The :ref:`manual installation guide <manual-reference-MacOS>` is recommended if you have had previous failures with the above options. 
 
