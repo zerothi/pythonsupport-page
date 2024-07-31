@@ -33,7 +33,7 @@ Reach us
    .. grid-item-card:: :fas:`person-running` -- Visit us
       :link: #office-hours
 
-      | You can find us at building **302**, room **92** {{online_days}}. See our office hours here.
+      | You can find us at building **302**, room **92** {{online_days}}. Click to see our office hours.
 
    .. grid-item-card:: :fas:`envelope` -- E-mail us
       :link: mailto:pythonsupport@dtu.dk
