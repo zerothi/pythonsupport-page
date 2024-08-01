@@ -1,28 +1,30 @@
 .PyS_d-1 {
-  --b:4px;   /* border length*/
-  --c:20px;  /* the cube perspective */
+  --b: 4px;   /* border length */
+  --c: 20px;  /* the cube perspective */
+  --g: calc(var(--c) * 0.707); /* 0.707 = cos(45deg) = sin(45deg) */
   
-  --g:calc(var(--c)*0.707); /* 0.707 = cos(45deg) = sin(45deg) */
-  
-  
-  padding:8px;
+  display: inline-flex; /* Use inline-flex to adapt to the content size */
+  align-items: center;  /* Center the content vertically */
+  justify-content: center; /* Center the content horizontally */
+  padding: 8px;
   transition: 0.5s;
   border: solid transparent;
-  border-width:var(--b) var(--b) calc(var(--c) + var(--b)) calc(var(--c) + var(--b));
+  border-width: var(--b) var(--b) calc(var(--c) + var(--b)) calc(var(--c) + var(--b));
   background:
-    linear-gradient(-45deg,transparent var(--g),rgba(255,255,255,0.6) 0) left  /var(--c) 100%,
-    linear-gradient(135deg,transparent var(--g),rgba(255,255,255,0.3) 0) bottom /100% var(--c),
-    conic-gradient(from -90deg at top var(--b)   right var(--b),currentColor 270deg,transparent 0),
-    conic-gradient(from  90deg at bottom calc(var(--c) + var(--b)) left calc(var(--c) + var(--b)),currentColor 270deg,transparent 0) ;
-  background-repeat:no-repeat;
-  background-origin:border-box;
-  transform:translate(calc(var(--c)/-1),calc(var(--c)/1));
+    linear-gradient(-45deg, transparent var(--g), rgba(255, 255, 255, 0.6) 0) left / var(--c) 100%,
+    linear-gradient(135deg, transparent var(--g), rgba(255, 255, 255, 0.3) 0) bottom / 100% var(--c),
+    conic-gradient(from -90deg at top var(--b) right var(--b), currentColor 270deg, transparent 0),
+    conic-gradient(from 90deg at bottom calc(var(--c) + var(--b)) left calc(var(--c) + var(--b)), currentColor 270deg, transparent 0);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  transform: translate(calc(var(--c) / -1), calc(var(--c) / 1));
   clip-path: 
     polygon(var(--c) 0%, var(--c) 0%, 
     100% 0%, 
-    100% calc(100% - var(--c)),100% calc(100% - var(--c)),
+    100% calc(100% - var(--c)), 100% calc(100% - var(--c)),
     var(--c) calc(100% - var(--c)),
     var(--c) calc(100% - var(--c)));
+  cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
 }
 .PyS_d-1:hover {
   transform:translate(0,0);
@@ -32,77 +34,7 @@
     100% calc(100% - var(--c)), calc(100% - var(--c)) 100%, 
     0% 100%,0% 100%);
 }
-.PyS_d-2 {
-  --b:4px;   /* border length*/
-  --c:20px;  /* the cube perspective */
-  
-  --g:calc(var(--c)*0.707); /* 0.707 = cos(45deg) = sin(45deg) */
-  
-  
-  padding:8px;
-  color:#E83F48;
-  transition: 0.5s;
-  border: solid transparent;
-  border-width:var(--b) calc(var(--c) + var(--b)) calc(var(--c) + var(--b)) var(--b);
-  background:
-    linear-gradient(  45deg,transparent var(--g),rgba(255,255,255,0.6) 0) right  /var(--c) 100%,
-    linear-gradient(-135deg,transparent var(--g),rgba(255,255,255,0.3) 0) bottom /100% var(--c),
-    conic-gradient(from -180deg at top var(--b) left var(--b),currentColor 270deg,transparent 0),
-    conic-gradient(from    0deg at bottom calc(var(--c) + var(--b)) right calc(var(--c) + var(--b)),currentColor 270deg,transparent 0) ;
-  background-repeat:no-repeat;
-  background-origin:border-box;
-  transform:translate(calc(var(--c)/1),calc(var(--c)/1));
-  clip-path: 
-    polygon(calc(100% - var(--c)) 0%, calc(100% - var(--c)) 0%, 
-    0% 0%, 
-    0% calc(100% - var(--c)),0% calc(100% - var(--c)),
-    calc(100% - var(--c)) calc(100% - var(--c)),
-    calc(100% - var(--c)) calc(100% - var(--c)));
-}
-.PyS_d-2:hover {
-  transform:translate(0,0);
-  clip-path: 
-    polygon(100% var(--c), calc(100% - var(--c)) 0%, 
-    0% 0%, 
-    0% calc(100% - var(--c)), var(--c) 100%, 
-    100% 100%,
-    100% 100%);
-}
 
-.PyS_d-3 {
-  --b:4px;   /* border length*/
-  --c:20px;  /* the cube perspective */
-  
-  --g:calc(var(--c)*0.707); /* 0.707 = cos(45deg) = sin(45deg) */
-  
-  
-  padding:8px;
-  transition: 0.5s;
-  border: solid transparent;
-  border-width:var(--b) var(--b) calc(var(--c) + var(--b)) calc(var(--c) + var(--b));
-  background:
-    linear-gradient(-45deg,transparent var(--g),rgba(255,255,255,0.6) 0) left  /var(--c) 100%,
-    linear-gradient(135deg,transparent var(--g),rgba(255,255,255,0.3) 0) bottom /100% var(--c),
-    conic-gradient(from -90deg at top var(--b)   right var(--b),currentColor 270deg,transparent 0),
-    conic-gradient(from  90deg at bottom calc(var(--c) + var(--b)) left calc(var(--c) + var(--b)),currentColor 270deg,transparent 0) ;
-  background-repeat:no-repeat;
-  background-origin:border-box;
-  transform:translate(calc(var(--c)/-1),calc(var(--c)/1));
-  clip-path: 
-    polygon(var(--c) 0%, var(--c) 0%, 
-    100% 0%, 
-    100% calc(100% - var(--c)),100% calc(100% - var(--c)),
-    var(--c) calc(100% - var(--c)),
-    var(--c) calc(100% - var(--c)));
-}
-.PyS_d-3:hover {
-  transform:translate(0,0);
-  clip-path: 
-    polygon(0% var(--c), var(--c) 0%, 
-    100% 0%, 
-    100% calc(100% - var(--c)), calc(100% - var(--c)) 100%, 
-    0% 100%,0% 100%);
-}
 
 
 /**/
@@ -115,11 +47,28 @@
   text-align:center;
 }
 
-#PyS_userLevelSelector, #PyS_osSelector {
-  text-align:center;
+#PyS_osSelector {
+  background-color: rgba(0,0,0,0.7);
+  padding: 10px;
 }
+
 .hidden {
   display:none;
+}
+
+#PyS_osSelector .title {
+  text-align: center;
+}
+#PyS_osSelector .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#PyS_d-1_icons {
+  padding-left: 15px; 
+  padding-right: 15px;
 }
 
 @font-face {
@@ -143,3 +92,12 @@
   font-style: normal;
 }
 
+@media (max-width: 600px) {
+  .PyS_d-1 {
+    font-size: 1em;
+  }
+  #PyS_d-1_icons {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

@@ -11,12 +11,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
-    background:url('../mobileImage.png');
+    max-height: 100vh; /* Use max-height for smooth collapsing */
+    background: url('../mobileImage.png');
     background-size: 80%;
     background-position: -24% 33%;
     position: relative;
     border-radius: 15px; /* Rounded corners for the container */
+    overflow: hidden; /* Ensure content is hidden when collapsed */
+    transition: max-height 0.5s ease-in-out; /* Smooth transition for max-height change */
+}
+
+.banner-container.collapsed {
+    max-height: 0; /* Collapsed state */
 }
 
 .topBanner, .bottomBanner {
@@ -26,6 +32,7 @@
     width: 100%;
     box-sizing: border-box;
     flex: 1; /* Ensure both banners take up equal space */
+    
     
 }
 
@@ -63,8 +70,8 @@
 .top-link, .bottom-link {
     font-size: 27px;
     color: white;
-    align-self: flex-start; /* Align link to the left */
-    margin-left: 430px;
+    align-self: flex-end; /* Align link to the left */
+    margin-right: 12px;
 }
 
 .bottom-link{
@@ -89,19 +96,20 @@
     color: #1fd082; /* Change this to your desired hover color */
 }
 
-
---dtu-bright-green: #1fd082;
---dtu-red: #E83F48;
---dtu-green: #008835;
---dtu-red-corporate: #990000;
+* {
+    --dtu-bright-green: #1fd082;
+    --dtu-red: #E83F48;
+    --dtu-green: #008835;
+    --dtu-red-corporate: #990000;
+}
 
 /* Media Queries for smaller screens */
 @media (max-width: 600px) {
     .top-text, .bottom-text, .top-link, .bottom-link {
-        font-size: 18px;
+        font-size: 18px !important;
     }
 
     .top-text-bold, .bottom-text-bold {
-        font-size: 24px;
+        font-size: 24px !important;
     }
 }

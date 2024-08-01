@@ -1,5 +1,7 @@
 <div class="mainBanner">
-    <div class="banner-container">
+    <button onclick="toggleBanner()">Animated transition between banners</button>
+    <button onclick="noRed()">No red banner</button>
+    <div id="bannerContainer" class="banner-container">
         <div class="topBanner">
             <div class="top-text top-text-bold">
                 Are you a 1<sup>st</sup> year student?
@@ -16,7 +18,21 @@
                 <a href="essentials_first/index.html" style="color: white; text-decoration: none;">Press here for essentials!</a>
             </div>
         </div>
+        <div id="PyS_osSelector" class="hidden">
+            <div class="title top-text top-text-bold">
+                Which Operating System are you using?
+            </div>
+            <div class="buttons">
+                <div class="PyS_d-1" onclick="PyS_osSelector('windows');">
+                    <i class="fa-brands fa-windows fa-2x" id="PyS_d-1_icons"></i>
+                </div>
+                <div class="PyS_d-1"  onclick="PyS_osSelector('macos');">
+                    <i class="fa-brands fa-apple fa-2x" id="PyS_d-1_icons"></i>
+                </div>
+                <div class="PyS_d-1"  onclick="PyS_osSelector('linux');">
+                    <i class="fa-brands fa-linux fa-2x" id="PyS_d-1_icons"></i>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-
-<div class="testBanner"></div>
