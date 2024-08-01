@@ -35,7 +35,7 @@ Verification and Quick Troubleshooting
 To ensure that your installation is working correctly, please go through the following steps.
 Open up PowerShell again. if you see (base) next to your username, you can proceed. Otherwise do the following:
 
-• Search for Miniconda PowerShell promt on your computer and open it up. (if you cannot find it, try to install Miniconda again)
+• Search for Miniconda PowerShell promt on your computer and open it up. (if you cannot find it, try to install Miniconda again). Information on how to install conda can be found :ref:`here <manual-reference-windows>`
 • After opening the Miniconda shell, type the following and press enter conda init.
 • Open up PowerShell again and verify that you now see (base).
 • Finally type ``idle`` in PowerShell and press enter. This should open up a new window in which you will able to run python code.
