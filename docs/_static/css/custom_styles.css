@@ -760,3 +760,8 @@ a.custom-link:hover {
 .sd-card-hover:hover {
   border-color: #E83F48 !important; /* Optional: Add a border or change its color */
 }
+
+.sd-card.sd-sphinx-override.sd-w-100.sd-shadow-sm.sd-card-hover.docutils {
+  border-radius: 15px; /* Adjust the value as needed */
+}
+
