@@ -10,5 +10,5 @@
 
 **Previous Instructions:**
 
-* `spring 2024 (F24) <https://02002.compute.dtu.dk/installation/mat1.html>`_
+* `Spring 2024 (F24) <https://02002.compute.dtu.dk/installation/mat1.html>`_
 

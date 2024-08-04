@@ -55,12 +55,28 @@ Welcome to the DTU Python Installation Support website. This website provides
 essential information and resources for installing Python on your 
 personal computer, and helping you get ready to start programming with Python.
 
-- :ref:`Install Python <install-python-reference>`: Access installation guides based on your operating system.
-- :ref:`Python Essentials <essentials-reference>`: Learn the essential tools for starting with Python coding.
-- :ref:`DTU Course Guidelines <course-index>`: Find installation guides for specific DTU courses. If you are an instructor, you can also host your course's installation guide here.
-- :ref:`Learn More <Documentation_index2>`: Navigate Python with information on pip, environments, terminal usage, and uninstallation.
-- :ref:`Video Tutorials <video-tutorials-reference>`: Watch video guides on essential Python topics, including VS Code, workspaces, terminals, debugging, Jupyter notebooks, extensions, package imports, environment creation, and keybindings.
+.. grid:: 1 1 1 2
+   :gutter: 1
 
+   .. grid-item-card:: :fas:`download` -- Install Python
+      :link: install-python-reference
+
+      | Access installation guides based on your operating system.
+
+   .. grid-item-card:: :fas:`book` -- DTU Course Guidelines
+      :link: course-index
+
+      | Find installation guides for specific DTU courses or host one if you are an instructor.
+
+   .. grid-item-card:: :fas:`info-circle` -- Learn More
+      :link: Documentation_index2
+
+      | Navigate Python with information on pip, environments, terminal usage, and uninstallation.
+
+   .. grid-item-card:: :fas:`video` -- Video Tutorials
+      :link: video-tutorials-reference
+
+      | Watch video guides on essential Python topics.
 
 .. _office-hours:
 
@@ -81,7 +97,8 @@ Office hours
    :hidden:
 
    quickstart/index.rst
-   essentials_first/index.rst
+   .. essentials_first/index.rst
+   
    courses/index.rst
    menu/index.rst
    .. faqs/index.rst
