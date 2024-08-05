@@ -5,13 +5,25 @@
 **Physics**
 ============================================================================
 
-Here you will find installation instructions for Physics. Both the current and previous instructions can be seen below. 
 
-.. toctree::
-   :caption: Previous Instructions:
-   :maxdepth: 1
 
-   F2024.rst
+This guideline is for students attending course :course-base:`10060` in the F25 year.
+
+
+.. dropdown:: Looking for old instructions?
+    :color: light
+
+    * `Autumn 2023 (E23) <https://02002.compute.dtu.dk/installation/index.html>`_
+    * **ETC...**
+
+|
+
+Please install the uncertainties package by pasting the following into your terminal:
+
+.. code-block:: bash
+
+   python3 -m pip install dtumathtools scipy pandas uncertainties
+
 
 
 
@@ -21,3 +33,6 @@ Here you will find installation instructions for Physics. Both the current and p
 - :course-base:`Danish version (10060) <10060>`
 - :course-base:`Physics for general engineering (10063) <10063>`
 - :course-base:`Online version of physics (10065) <10065>`
+
+
+

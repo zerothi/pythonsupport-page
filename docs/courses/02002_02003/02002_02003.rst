@@ -4,11 +4,13 @@
 **Intro to programming**
 ========================================================================
 
-| These are the installation instructions for Introduction to Python programming
-| Note that course :course-base:`02002` is the Danish version, while  :course-base:`02003` is the English version of the course.
-| Click :course-home:`here <02002>` for the course homepage.
+These are the instructions for autumn 2024 (E24)
 
-**Previous Instructions:**
+.. dropdown:: Looking for old instructions?
+    :color: light
 
-* `Autumn 2023 (E23) <https://02002.compute.dtu.dk/installation/index.html>`_
+    * `Autumn 2023 (E23) <https://02002.compute.dtu.dk/installation/index.html>`_
+    * **ETC...**
+
+
 
