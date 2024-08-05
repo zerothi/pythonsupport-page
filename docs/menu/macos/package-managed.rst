@@ -13,7 +13,7 @@ MacOS - Package managed installation guide
 Step 1: Install Homebrew 
 --------------------------
 First you need to download the package manager Homebrew. This is done by going to `this <https://brew.sh>`_ website
-and follow the instructions. Tip: The Homebrew website will ask you to open a terminal. This is
+and follow the instructions. The Homebrew website will ask you to open a terminal. This is
 done by pressing the "command" and "space" buttons at the same time and searching for terminal
 
 .. image:: /menu/images/macos-package-managed-homebrew.png
@@ -47,7 +47,7 @@ Now run the following commands in terminal one at a time by inserting and pressi
     
 .. code-block::
 
-    conda install -c conda-forge dtumathtools uncertainties
+    conda install -c conda-forge dtumathtools uncertainties -y
     
 
 

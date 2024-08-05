@@ -37,11 +37,11 @@ Now run the following commands in powershell one at a time by pasting them into 
 
 .. code-block::
 
-    conda install python=3.11 --yes
+    conda install python=3.11 -y
 
 .. code-block::
 
-    conda install -c conda-forge dtumathtools uncertainties
+    conda install -c conda-forge dtumathtools uncertainties -y
 
 
 Step 3: Install VS Code:
@@ -84,14 +84,14 @@ To ensure that your installation is working correctly, please go through the fol
 Open up PowerShell again. if you see (base) next to your username, you can proceed. Otherwise do the following:
 
 • Search for Miniconda PowerShell promt on your computer and open it up. (if you cannot find it, try to install Miniconda again)
-• After opening the Miniconda shell, type the following and press enter conda init.
+• After opening the Miniconda shell, type ``conda init`` and press enter.
 • Open up PowerShell again and verify that you now see (base).
 • Finally type ``idle`` in PowerShell and press enter. This should open up a new window in which you will able to run python code.
 
 Now ensure the following:
 
 • It says Python 3.11.xx in the top left.
-• You get no errors when typing ``import dtumathools, uncertainties`` and press enter.(Nothing should happen)
+• You get no errors when typing ``import dtumathtools, uncertainties`` and press enter.(Nothing should happen)
 
 If it is not the case for one of the above, try to paste the following line of code in PowerShell and press enter:
 

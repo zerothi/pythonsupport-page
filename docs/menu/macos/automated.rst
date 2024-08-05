@@ -22,8 +22,7 @@ MacOS - Automated installation guide
 
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/dtudk/pythonsupport-scripts/main/AutoInstallMacOS.sh)"
 #. 
-    please follow the instructions by the script. You might get asked for permissions and your pass-
-    word to make changes on your Mac. Please grant permission. Note that your password won't be
+    please follow the instructions by the script. You might get asked for permissions and your password to make changes on your Mac. Please grant permission. Note that your password won't be
     shown when typing it.
 
 #. 

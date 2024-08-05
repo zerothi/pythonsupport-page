@@ -43,16 +43,16 @@ Then you need to follow the instructions from the package.
 Step 2: Install Python
 ---------------------------
 
-Now you need to open týour terminal. This is done by pressing the "command" and "space" key at the same time and searching for "terminal".
+Now you need to open your terminal. This is done by pressing the "command" and "space" key at the same time and searching for "terminal".
 Copy and paste the following lines of cod einto your terminal and press enter one line at a time:
 
 .. code-block::
         
-    conda install python=3.11 --yes
+    conda install python=3.11 -y
     
 .. code-block::
 
-    conda install -c conda-forge dtumathtools uncertainties
+    conda install -c conda-forge dtumathtools uncertainties -y
 
 
 Step 3: Install VS Code
