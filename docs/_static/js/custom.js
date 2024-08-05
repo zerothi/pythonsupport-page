@@ -1,4 +1,6 @@
-var userLevel = userLevel || 'package-managed.html';
+// var userLevel = userLevel || 'package-managed.html';
+
+let userLevel;
 
 function PyS_isOperatingSytem() {
     if (navigator.appVersion.indexOf("Android") != -1) return false;
