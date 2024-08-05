@@ -1,4 +1,4 @@
-let userLevel;
+var userLevel = userLevel || 'package-managed.html';
 
 function PyS_isOperatingSytem() {
     if (navigator.appVersion.indexOf("Android") != -1) return false;
@@ -11,15 +11,21 @@ function PyS_isOperatingSytem() {
 
 function PyS_osSelector(os) {
     const baseUrl = getBaseUrl();
-    window.location.href = `${baseUrl}menu/${os}/${userLevel}`;
+    if (os === "windows") {
+        window.location.href = `${baseUrl}menu/${os}/fully-manual.html`;
+    } else {
+        window.location.href = `${baseUrl}menu/${os}/${userLevel}`;
+    }
 }
 
 function PyS_redirectUser(UserLevel) {
     let os = PyS_isOperatingSytem();
     userLevel = UserLevel;
     if (!os) {
-        document.getElementById("PyS_userLevelSelector").classList.add('hidden');
-        document.getElementById("PyS_osSelector").classList.remove('hidden');
+        toggleBanner(); // Show os selector
+    } else if (os === "windows") {
+        const baseUrl = getBaseUrl();
+        window.location.href = `${baseUrl}menu/${os}/fully-manual.html`;
     } else {
         const baseUrl = getBaseUrl();
         window.location.href = `${baseUrl}menu/${os}/${userLevel}`;
@@ -35,4 +41,26 @@ function getBaseUrl() {
         }
     }
     return window.location.origin + newPathname;
+}
+
+function toggleBanner() {
+    const bannerContainer = document.getElementById('bannerContainer');
+    const topBanner = document.querySelector('.topBanner');
+    const bottomBanner = document.querySelector('.bottomBanner');
+    const osSelector = document.getElementById('PyS_osSelector');
+
+    bannerContainer.classList.toggle('collapsed');
+    // Delay the execution by 0.5 seconds (500 milliseconds)
+    setTimeout(() => {
+        topBanner.classList.toggle('hidden');
+        bottomBanner.classList.toggle('hidden');
+        osSelector.classList.toggle('hidden');
+        bannerContainer.classList.toggle('collapsed');
+    }, 500);
+    
+}
+
+function noRed() {
+    const bottomBanner = document.querySelector('.bottomBanner');
+    bottomBanner.classList.toggle('hidden');
 }
