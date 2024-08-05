@@ -1,6 +1,6 @@
 .. _essentials-reference:
 
-Python essentials
+Core tools
 ===================================
 
 Here you can find the essential tools needed to run and utilize Python during your first year at DTU as a Bachelor student. 
