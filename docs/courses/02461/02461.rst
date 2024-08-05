@@ -9,7 +9,7 @@ These are the instructions for autumn 2024 (E24)
 |
 
 .. dropdown:: Looking for old instructions?
-    :color: dark
+    :color: light
 
     * `Autumn 2023 (E23) <https://02002.compute.dtu.dk/installation/index.html>`_
     * **ETC...**
