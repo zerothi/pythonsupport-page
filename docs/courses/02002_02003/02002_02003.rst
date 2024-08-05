@@ -6,6 +6,8 @@
 
 These are the instructions for autumn 2024 (E24)
 
+| 
+
 .. dropdown:: Looking for old instructions?
     :color: light
 

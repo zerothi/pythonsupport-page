@@ -6,6 +6,8 @@
 
 These are the instructions for spring 2025 (F25)
 
+| 
+
 .. dropdown:: Looking for old instructions?
     :color: light
 
