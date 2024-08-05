@@ -6,7 +6,6 @@
 
 These are the instructions for spring 2025 (F25)
 
-| 
 
 .. dropdown:: Looking for old instructions?
     :color: light
@@ -14,8 +13,12 @@ These are the instructions for spring 2025 (F25)
     * `Spring 2024 (F24) <https://02002.compute.dtu.dk/installation/mat1.html>`_
     * **ETC...**
 
+| 
 
-**Previous Instructions:**
+
+**insert instructions here**
+
+
 
 
 

@@ -7,8 +7,6 @@
 These are the instructions for the autumn 2024 (E24)
 
 
-| 
-
 
 .. dropdown:: Looking for old instructions?
     :color: light
@@ -16,7 +14,7 @@ These are the instructions for the autumn 2024 (E24)
     * `Autumn 2023 (E23) <https://02002.compute.dtu.dk/installation/mat1.html>`_
     * **ETC...**
 
-
+| 
 
 **Insert instructions here**
 
