@@ -333,10 +333,34 @@ a.reference.internal.nav-link:hover {
 
 /* Custom CSS to hide the bd-header-article noprint */
 
-/* Hide the element with class bd-header-article noprint */
-.bd-header-article.noprint {
+/* This takes out the  toggle side bar */
+/* .bd-header-article.noprint {
   display: none !important;
 }
+ *//* styles.css */
+.btn:hover {
+ color: #E83F48 ! important;
+ box-decoration-break:#E83F48 ! important ;
+}
+
+/* styles.css */
+/* styles.css */
+.btn.btn-sm.navbar-btn.search-button.search-button__button:hover {
+  color: #E83F48; /* Change text color */
+  box-shadow: none  !important;  
+}
+
+.bd-header-article.noprint .btn.btn-sm.navbar-btn.theme-switch-button {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .sidebar-header-items.sidebar-primary__section {
+      display: none;
+  }
+}
+
+
 
 
 

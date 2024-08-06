@@ -531,14 +531,19 @@ def setup(app):
 
 
 html_theme_options = {
-
+    
     "navbar_center": ["logo_button.html","navbar-nav","theme-switcher"],
     # "navbar_end": ["theme-switcher","search-field"],
     "lefttsidebar": "false",
     "icon_links": _icon_links,
     "header_links_before_dropdown": 10,
-     "back_to_top_button": True,
+    "back_to_top_button": True,
+    "use_repository_button": True,
+    "repository_provider": "github",
+    "repository_url": _pythonsupport["repository"],
 }
+
+
 
 
 
