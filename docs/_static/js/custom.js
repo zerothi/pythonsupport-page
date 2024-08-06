@@ -7,6 +7,7 @@ function PyS_isOperatingSytem() {
     console.log('User Agent:', userAgent); // Debugging line
     if (userAgent.indexOf("android") != -1) return false;
     if (userAgent.indexOf("iphone") != -1) return false;
+    if (userAgent.indexOf("ipad") != -1) return false;
     if (userAgent.indexOf("win") != -1) return "windows";
     if (userAgent.indexOf("mac") != -1) return "macos";
     if (userAgent.indexOf("linux") != -1) return "linux";
